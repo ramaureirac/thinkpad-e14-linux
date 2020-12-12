@@ -1,6 +1,6 @@
 ## Current State of GNU/Linux on Lenovo Thinkpad E14
 
-The following repository provides an overview about Linux support for Lenovo Thinkpad E14 (it should work with E15 as well) with some aditional guides and scripts. Please note this documents are based on my own experience and it doesn't means an official support for this models. If you follow this guide, no one is responsible for any damage to your hardware.
+The following repository provides an overview about Linux support for Lenovo Thinkpad E14 (it should work with E15 as well). Please note this documents are based on my own experience and it doesn't means an official support for this models. If you follow this guide, no one is responsible for any damage to your hardware.
 
 According to Lenovo's documentation there are different models of the Thinkpad E14 based on the Wi-Fi card ,wich can be a Realtek RTL8822CE or an Intel Wireless AC9560/AX201. A part of that models are nearly identical except for the option to add and AMD RX640 as dedicated graphics card. 
 
