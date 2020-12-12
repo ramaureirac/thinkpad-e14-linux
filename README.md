@@ -17,23 +17,23 @@ If you want to contribute to get Linux running smoothly on the Lenovo Thinkpad E
 
 The table shows up Linux 5.4+ support status for each device on this laptop.
 
-| Device                          | Status                              | Additional notes                                                                |
-|---------------------------------|-------------------------------------|---------------------------------------------------------------------------------|
-| Audio Input & Output            | :heavy_check_mark:                  | Working, when you connect headphones internal mic will be disable               |
-| Battery                         | :heavy_check_mark:                  | Up to six hours of battery life!                                                | 
-| Bluetooth                       | :heavy_check_mark:                  | Working!                                                                        |
-| Camera                          | :heavy_check_mark:                  | Working, for some reason Kamoso applies a red filter                            |
-| Graphics Card (Intel)           | :heavy_check_mark:                  | Working!                                                                        |
-| Graphics Card (RX640)           | :white_check_mark:                  | Working after installing amdgpu drivers                                         |
-| Keyboard, Touchpad and Trackpad | :white_check_mark:                  | Working, append "psmouse.elantech_smbus=0" as boot parameter                    |
-| NVMe & Internal SSD             | :heavy_check_mark:                  | Working!                                                                        |
-| Screen                          | :heavy_check_mark:                  | Working!                                                                        |
-| Suspend & Hibernation           | :white_check_mark:                  | Needs BIOS downgrade, ECP 1.04                                                  |
-| Wi-Fi                           | :heavy_check_mark:                  | Intel Wireless works out of the box!                                            |
-| USB                             | :heavy_check_mark:                  | Working!                                                                        |
-| Fingerprint Reader              | :x:                                 | Definitely not working                                                          |
-| Fn Hot Keys                     | :heavy_check_mark:                  | Working except for F11                                                          |
-| Fans                            | :heavy_check_mark:                  | Working!                                                                        |
+| Device                            | Status                              | Additional notes                                                                |
+|-----------------------------------|-------------------------------------|---------------------------------------------------------------------------------|
+| Audio Input & Output              | :heavy_check_mark:                  | Working, when you connect headphones internal mic will be disable               |
+| Battery                           | :heavy_check_mark:                  | Up to six hours of battery life!                                                | 
+| Bluetooth                         | :heavy_check_mark:                  | Working!                                                                        |
+| Camera                            | :heavy_check_mark:                  | Working, for some reason Kamoso applies a red filter                            |
+| Graphics Card (Intel)             | :heavy_check_mark:                  | Working!                                                                        |
+| Graphics Card (RX640)             | :white_check_mark:                  | Working after installing amdgpu drivers                                         |
+| Keyboard, Touchpad and Trackpoint | :white_check_mark:                  | Working, append "psmouse.elantech_smbus=0" as boot parameter                    |
+| NVMe & Internal SSD               | :heavy_check_mark:                  | Working!                                                                        |
+| Screen                            | :heavy_check_mark:                  | Working!                                                                        |
+| Suspend & Hibernation             | :white_check_mark:                  | Needs BIOS downgrade, ECP 1.04                                                  |
+| Wi-Fi                             | :heavy_check_mark:                  | Intel Wireless works out of the box!                                            |
+| USB                               | :heavy_check_mark:                  | Working!                                                                        |
+| Fingerprint Reader                | :x:                                 | Definitely not working                                                          |
+| Fn Hot Keys                       | :heavy_check_mark:                  | Working except for F11                                                          |
+| Fans                              | :heavy_check_mark:                  | Working!                                                                        |
 
 
 #### Audio Input & Output
@@ -85,7 +85,7 @@ See also:
 - https://gitlab.com/corectrl/corectrl/-/wikis/Setup
 - https://github.com/FeralInteractive/gamemode
 
-#### Keyboard, Touchpad & Trackpad
+#### Keyboard, Touchpad & Trackpoint
 
 To be honest this should work out of the box on any distro running 5.4+ kernel. However, some people say after some time the touchpad and trackpad stop working (some kind of freeze?). I order to fix it add the following line in your grub configuration file.
     
