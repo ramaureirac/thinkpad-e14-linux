@@ -89,6 +89,7 @@ Now you sould be able to tweak your GPU
 See also:
 
 - https://gitlab.com/corectrl/corectrl/-/wikis/Setup
+- https://github.com/FeralInteractive/gamemode
 
 #### Keyboard, Touchpad & Trackpad
 
