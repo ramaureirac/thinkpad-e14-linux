@@ -80,12 +80,6 @@ In case you have the Intel or ATI drivers you can uninstall them by doing:
     sudo apt remove xserver-xorg-video-ati
     sudo apt remove xserver-xorg-video-intel
 
-Finally, I case you wanna play some video games, you may need corectrl in order to tweak your Graphic Card. Bus first you'll need to copy and paste the following boot parameter inside your grub configuraton file.
-    
-    GRUB_CMDLINE_LINUX="rhgb quiet ... amdgpu.ppfeaturemask=0xffffffff ... "
-    
-Now you sould be able to tweak your GPU
-
 See also:
 
 - https://gitlab.com/corectrl/corectrl/-/wikis/Setup
