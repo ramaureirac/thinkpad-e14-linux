@@ -58,6 +58,13 @@ In case your model includes the AMD RX640 you'll have to do some extra stuff in 
     
     # install on ubuntu:
     sudo apt install -y libdrm-amdgpu1 xserver-xorg-video-amdgpu
+    
+Now, when ever you wanna start an application with dedicated graphics, use the following command:
+
+    # start VLC with AMD RX640
+    DRI_PRIME=1 vlc
+
+You can also create custom .desktop entries or launch arguments on Steam.
 
 In case you have the Intel or ATI drivers you can uninstall them by doing:
 
