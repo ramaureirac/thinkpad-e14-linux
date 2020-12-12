@@ -24,7 +24,7 @@ The table shows up Linux 5.4+ support status for each device on this laptop.
 | Bluetooth                       | :heavy_check_mark:                  | Working!                                                                        |
 | Camera                          | :heavy_check_mark:                  | Working, for some reason Kamoso applies a red filter                            |
 | Graphics Card (Intel)           | :heavy_check_mark:                  | Working!                                                                        |
-| Graphics Card (RX640)           | :white_check_mark:                  | Working after installing amdgpu drivers and uninstalling intel gpu drivers      |
+| Graphics Card (RX640)           | :white_check_mark:                  | Working after installing amdgpu drivers                                         |
 | Keyboard, Touchpad and Trackpad | :white_check_mark:                  | Working, append "psmouse.elantech_smbus=0" as boot parameter                    |
 | NVMe & Internal SSD             | :heavy_check_mark:                  | Working!                                                                        |
 | Screen                          | :heavy_check_mark:                  | Working!                                                                        |
@@ -96,3 +96,4 @@ When I recived my Thinkpad it arrived with BIOS v1.09 wich for some reason wasn'
 See also:
 - https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-edge-laptops/thinkpad-e14-type-20ra-20rb/downloads/DS541516
 - https://support.lenovo.com/us/en/solutions/ht117858-bios-rollback-flash-failure-secure-flash-authentication-failed-when-secure-rollback-prevention-enabled-thinkpad-t450-t450s
+
