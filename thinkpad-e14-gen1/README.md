@@ -96,3 +96,7 @@ When I recived my Thinkpad it arrived with BIOS v1.09 wich for some reason wasn'
 See also:
 - https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-edge-laptops/thinkpad-e14-type-20ra-20rb/downloads/DS541516
 - https://support.lenovo.com/us/en/solutions/ht117858-bios-rollback-flash-failure-secure-flash-authentication-failed-when-secure-rollback-prevention-enabled-thinkpad-t450-t450s
+
+### Conclusions
+
+As I said before Thinkad E14 (first-gen) is one of the best latptops for Linux that I ever have. Yes, you must apply a BIOS downgrade a add some boot parameters in order to keep everything working, but still as long as my system works everything is just some irrelevant technical details. I would recommend this laptops for Linux use.
