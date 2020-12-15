@@ -1,4 +1,4 @@
-## Current State of GNU/Linux on Lenovo Thinkpad E14
+## Current State of GNU/Linux on Lenovo Thinkpad E14 (First-Gen)
 
 The following repository provides an overview about Linux support for Lenovo Thinkpad E14 (it should work with E15 as well). Please note this documents are based on my own experience and it doesn't means an official support for this models. If you follow this guide, no one is responsible for any damage to your hardware.
 
