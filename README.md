@@ -6,7 +6,7 @@ The following repository provides an overview about Linux support for Lenovo Thi
 
 If you want to contribute to get Linux running smoothly on the Lenovo Thinkpad E14 series, report all findings on how to get devices working as pull requests! All help is appreciated.
 
-### Current Status (First-Gen)
+### Current Status
 
 The table shows up Linux 5.4+ support status for each device on this laptop series. Note that circle means it works but need extra tweak or configuration.
 
