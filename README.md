@@ -17,7 +17,7 @@ If you want to contribute to get Linux running smoothly on the Lenovo Thinkpad E
 
 The table shows up Linux 5.4+ support status for each device on this laptop series. Note that circle means it works but need extra tweak or configuration.
 
-| Device                            | Thinkpad E14 First Gen              | Thinkpad E14 Second Gen   |
+| Device                            | First Gen                           | Second Gen                |
 |-----------------------------------|-------------------------------------|---------------------------|
 | Audio Input & Output              | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Battery                           | :heavy_check_mark:                  | :heavy_check_mark:        | 
