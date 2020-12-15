@@ -119,3 +119,9 @@ See also:
 | Fn Hot Keys                       | :x:                                 | Not working!                                                                    |
 | Fans                              | :heavy_check_mark:                  | Working!                                                                        |
 
+#### Suspend & Hiberantion
+
+Both suspend and hibernation are not able to recover (black  screen). A a temporary fix would be to set s2idel as default suspend method on the grub configuration file. Here is an example:
+
+    GRUB_CMDLINE_LINUX="rhgb quiet ... mem_sleep_default=s2idle ..."
+    
