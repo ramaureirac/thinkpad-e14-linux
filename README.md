@@ -13,7 +13,7 @@ To checks if hardware works, all test were done with some Linux Distributions (U
 
 If you want to contribute to get Linux running smoothly on the Lenovo Thinkpad E14 series, report all findings on how to get devices working as pull requests! All help is appreciated.
 
-### Current status
+### Current Status (First-Gen)
 
 The table shows up Linux 5.4+ support status for each device on this laptop.
 
@@ -34,7 +34,6 @@ The table shows up Linux 5.4+ support status for each device on this laptop.
 | Fingerprint Reader                | :x:                                 | Definitely not working                                                          |
 | Fn Hot Keys                       | :heavy_check_mark:                  | Working except for F11                                                          |
 | Fans                              | :heavy_check_mark:                  | Working!                                                                        |
-
 
 #### Audio Input & Output
 
@@ -98,4 +97,25 @@ When I recived my Thinkpad it arrived with BIOS v1.09 wich for some reason wasn'
 See also:
 - https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-edge-laptops/thinkpad-e14-type-20ra-20rb/downloads/DS541516
 - https://support.lenovo.com/us/en/solutions/ht117858-bios-rollback-flash-failure-secure-flash-authentication-failed-when-secure-rollback-prevention-enabled-thinkpad-t450-t450s
+
+
+
+### Current Status (Second-Gen)
+
+| Device                            | Status                              | Additional notes                                                                |
+|-----------------------------------|-------------------------------------|---------------------------------------------------------------------------------|
+| Audio Input & Output              | :heavy_check_mark:                  | Working, when you connect headphones internal mic will be disable               |
+| Battery                           | :heavy_check_mark:                  | Up to six hours of battery life!                                                | 
+| Bluetooth                         | :heavy_check_mark:                  | Working!                                                                        |
+| Camera                            | :heavy_check_mark:                  | Working, for some reason Kamoso applies a red filter                            |
+| Graphics Card (AMD Vega)          | :heavy_check_mark:                  | Working, for kenrel 5.6+                                                        |
+| Keyboard, Touchpad and Trackpoint | :x:                                 | Trackpoint not woking                                                           | 
+| NVMe & Internal SSD               | :heavy_check_mark:                  | Working!                                                                        |
+| Screen                            | :heavy_check_mark:                  | Working!                                                                        |
+| Suspend & Hibernation             | :x:                                 | Temp solution: apply s2idle as boot parameter                                   |
+| Wi-Fi                             | :heavy_check_mark:                  | Intel Wireless works out of the box!                                            |
+| USB                               | :heavy_check_mark:                  | Working!                                                                        |
+| Fingerprint Reader                | :x:                                 | Definitely not working                                                          |
+| Fn Hot Keys                       | :x:                                 | Not working!                                                                    |
+| Fans                              | :heavy_check_mark:                  | Working!                                                                        |
 
