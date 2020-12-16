@@ -18,8 +18,10 @@ Tweaks can be found on the specific laptops folder.
 | Bluetooth                         | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Camera                            | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Graphics Card (Intel)             | :heavy_check_mark:                  | :heavy_check_mark:        |
-| Graphics Card (AMD)               | :o:                                 | :o:                       |
-| Keyboard, Touchpad and Trackpoint | :o:                                 | :x:                       |
+| Graphics Card (AMD)               | :o:                                 | :heavy_check_mark:        |
+| Graphics Card (Nvidia)            | :x:                                 | :o:                       |
+| Keyboard and Touchpad             | :heavy_check_mark:                  | :heavy_check_mark:        |
+| Trackpoint and buttons            | :o:                                 | :x:                       |
 | NVMe & Internal SSD               | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Screen                            | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Suspend & Hibernation             | :o:                                 | :o:                       |
