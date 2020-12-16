@@ -21,7 +21,7 @@ Tweaks can be found on the specific laptops folder.
 | Graphics Card (AMD)               | :o:                                 | :heavy_check_mark:        |
 | Graphics Card (Nvidia)            | :x:                                 | :o:                       |
 | Keyboard and Touchpad             | :heavy_check_mark:                  | :heavy_check_mark:        |
-| Trackpoint and buttons            | :o:                                 | :x:                       |
+| Trackpoint and buttons            | :o:                                 | :o:                       |
 | NVMe & Internal SSD               | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Screen                            | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Suspend & Hibernation             | :o:                                 | :heavy_check_mark:        |
