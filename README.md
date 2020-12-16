@@ -1,4 +1,4 @@
-## Current State of GNU/Linux on Lenovo Thinkpad E14
+## Current State of GNU/Linux on Lenovo Thinkpad E14 Gen1/Gen2
 
 The following repository provides an overview about Linux support for Lenovo Thinkpad E14 (it should work with E15 as well). Please note this documents are based on my own experience and it doesn't means an official support for this models. If you follow this guide, no one is responsible for any damage to your hardware.
 
@@ -9,6 +9,7 @@ If you want to contribute to get Linux running smoothly on the Lenovo Thinkpad E
 ### Current Status
 
 The table shows up Linux 5.4+ support status for each device on this laptop series. Note that circle means it works but need extra tweak or configuration.
+Tweaks can be found on the specific laptops folder.
 
 | Device                            | First Gen                           | Second Gen                |
 |-----------------------------------|-------------------------------------|---------------------------|
@@ -16,7 +17,7 @@ The table shows up Linux 5.4+ support status for each device on this laptop seri
 | Battery                           | :heavy_check_mark:                  | :heavy_check_mark:        | 
 | Bluetooth                         | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Camera                            | :heavy_check_mark:                  | :heavy_check_mark:        |
-| Graphics Card (Intel)             | :heavy_check_mark:                  | *Not available*           |
+| Graphics Card (Intel)             | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Graphics Card (AMD)               | :o:                                 | :o:                       |
 | Keyboard, Touchpad and Trackpoint | :o:                                 | :x:                       |
 | NVMe & Internal SSD               | :heavy_check_mark:                  | :heavy_check_mark:        |
@@ -28,4 +29,8 @@ The table shows up Linux 5.4+ support status for each device on this laptop seri
 | Fn Hot Keys                       | :heavy_check_mark:                  | :x:                       |
 | Fans                              | :heavy_check_mark:                  | :heavy_check_mark:        |
     
-You can find more details of every model on their folder
+You can find more details of every model on their folder:
+(info for Gen1)[./thinkpad-e14-gen1/README.md]
+(info for Gen2)[./thinkpad-e14-gen2/README.md]
+
+
