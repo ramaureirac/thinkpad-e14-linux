@@ -32,7 +32,7 @@ I also tested various Linux distributions on this machine. Here they are some of
 
 ### Current State
 
-In this secction I'll show a detailed overview about Linux compatibility for Lenovo Thinkpad E14 (fist-gen). As I said before, there are some tweaks you must do  on your system in order to get a fully functional Linux Workstation. Please note I've made this table with Linux 5.4 LTS. The current version (5.9) doesn't require extra tweaks except for BIOS downgrade.
+In this secction I'll show a detailed overview about Linux compatibility for Lenovo Thinkpad E14 (second-gen). As I said before, there are some tweaks you must do  on your system in order to get a fully functional Linux Workstation. Please note I've made this table with Linux 5.4 LTS. The current version (5.9) doesn't require extra tweaks except for BIOS downgrade.
 
 | Device                            | Status                              | Additional notes                                                                |
 |-----------------------------------|-------------------------------------|---------------------------------------------------------------------------------|
