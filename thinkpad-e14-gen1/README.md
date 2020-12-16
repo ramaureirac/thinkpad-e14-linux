@@ -42,7 +42,8 @@ In this secction I'll show a detailed overview about Linux compatibility for Len
 | Camera                            | :heavy_check_mark:                  | Working, for some reason Kamoso applies a red filter                            |
 | Graphics Card (Intel)             | :heavy_check_mark:                  | Working!                                                                        |
 | Graphics Card (RX640)             | :o:                                 | Working after installing amdgpu drivers                                         |
-| Keyboard, Touchpad and Trackpoint | :o:                                 | Working, append "psmouse.elantech_smbus=0" as boot parameter                    |
+| keyboard and touchpad             | :heavy_check_mark:                  | Working!                                                                        |
+| Trackpoint and buttons            | :o:                                 | Working, append "psmouse.elantech_smbus=0" as boot parameter                    |
 | NVMe & Internal SSD               | :heavy_check_mark:                  | Working!                                                                        |
 | Screen                            | :heavy_check_mark:                  | Working!                                                                        |
 | Suspend & Hibernation             | :o:                                 | Needs BIOS downgrade, ECP 1.04                                                  |
