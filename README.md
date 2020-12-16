@@ -35,4 +35,6 @@ You can find more details of every model on their folder:
 [Gen1](./thinkpad-e14-gen1/README.md),
 [Gen2](./thinkpad-e14-gen2/README.md)
 
+[Grub-Config](./grub-config/README.md) to fix the touchpoint
+
 
