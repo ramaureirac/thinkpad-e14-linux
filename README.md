@@ -24,7 +24,7 @@ Tweaks can be found on the specific laptops folder.
 | Trackpoint and buttons            | :o:                                 | :x:                       |
 | NVMe & Internal SSD               | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Screen                            | :heavy_check_mark:                  | :heavy_check_mark:        |
-| Suspend & Hibernation             | :o:                                 | :o:                       |
+| Suspend & Hibernation             | :o:                                 | :heavy_check_mark:        |
 | Wi-Fi                             | :heavy_check_mark:                  | :heavy_check_mark:        |
 | USB                               | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Fingerprint Reader                | :x:                                 | :x:                       |
