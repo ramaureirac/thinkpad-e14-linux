@@ -37,13 +37,13 @@ In this secction I'll show a detailed overview about Linux compatibility for Len
 | Device                            | Status                              | Additional notes                                                                |
 |-----------------------------------|-------------------------------------|---------------------------------------------------------------------------------|
 | Audio Input & Output              | :heavy_check_mark:                  | Working, when you connect headphones internal mic will be disable               |
-| Battery                           | :heavy_check_mark:                  | Up to four-six hours of battery life!                                                | 
+| Battery                           | :heavy_check_mark:                  | Up to four-six hours of battery life!                                           | 
 | Bluetooth                         | :heavy_check_mark:                  | Working!                                                                        |
 | Camera                            | :heavy_check_mark:                  | Working, for some reason Kamoso applies a red filter                            |
 | Graphics Card (Intel)             | :heavy_check_mark:                  | Working!                                                                        |
-| Graphics Card (Intel)             | :heavy_check_mark:                  | Working!                                      |
-| Keyboard and Touchpad             | :heavy_check_mark:                  | Working, append "psmouse.elantech_smbus=0" as boot parameter                    |
-| Trackpoint and buttons            | :x:                                 | Definitely not working, Detected but not usable.                                |
+| Graphics Card (Intel)             | :heavy_check_mark:                  | Working!                                                                        |
+| Keyboard and Touchpad             | :heavy_check_mark:                  | Working!,                                                                       |
+| Trackpoint and buttons            | :o:                                 | Working, append "psmouse.elantech_smbus=0" as boot parameter [here](../grub.md) |               
 | NVMe & Internal SSD               | :heavy_check_mark:                  | Working!                                                                        |
 | Screen                            | :heavy_check_mark:                  | Working!                                                                        |
 | Suspend & Hibernation             | :heavy_check_mark:                  | Windows suspend works but ironicly linux suspend doesnt (bios options)          |                 
@@ -62,7 +62,7 @@ In case you are not able to twak your AMD GPU with corectrl, put this as boot pa
 
 #### Keyboard, Touchpad & Trackpoint
 
-Keyboard works, Trackpoint and Buttons are not.
+all of it works if you add the [grub config](../grub.md).
     
 #### Suspend & Hibernation
 
