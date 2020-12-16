@@ -30,7 +30,7 @@ Tweaks can be found on the specific laptops folder.
 | Fans                              | :heavy_check_mark:                  | :heavy_check_mark:        |
     
 You can find more details of every model on their folder:
-[info for Gen1](./thinkpad-e14-gen1/README.md)
-[info for Gen2](./thinkpad-e14-gen2/README.md)
+[Gen1](./thinkpad-e14-gen1/README.md)
+,[Gen2](./thinkpad-e14-gen2/README.md)
 
 
