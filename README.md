@@ -19,7 +19,7 @@ Tweaks can be found on the specific laptops folder.
 | Camera                            | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Graphics Card (Intel)             | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Graphics Card (AMD)               | :o:                                 | :heavy_check_mark:        |
-| Graphics Card (Nvidia)            | :x:                                 | :o:                       |
+| Graphics Card (Nvidia)            | *Not available*                     | :o:                       |
 | Keyboard and Touchpad             | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Trackpoint and buttons            | :o:                                 | :x:                       |
 | NVMe & Internal SSD               | :heavy_check_mark:                  | :heavy_check_mark:        |
