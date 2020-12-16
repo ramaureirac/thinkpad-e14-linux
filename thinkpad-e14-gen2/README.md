@@ -62,7 +62,7 @@ In case you are not able to twak your AMD GPU with corectrl, put this as boot pa
 
 #### Keyboard, Touchpad & Trackpoint
 
-all of it works if you add the [grub config](../grub.md).
+all of it works if you add the [grub config](../grub-config/README.md).
     
 #### Suspend & Hibernation
 
