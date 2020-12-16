@@ -22,15 +22,15 @@ Tweaks can be found on the specific laptops folder.
 | Keyboard, Touchpad and Trackpoint | :o:                                 | :x:                       |
 | NVMe & Internal SSD               | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Screen                            | :heavy_check_mark:                  | :heavy_check_mark:        |
-| Suspend & Hibernation             | :o:                                 | :x:                       |
+| Suspend & Hibernation             | :o:                                 | :o:                       |
 | Wi-Fi                             | :heavy_check_mark:                  | :heavy_check_mark:        |
 | USB                               | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Fingerprint Reader                | :x:                                 | :x:                       |
-| Fn Hot Keys                       | :heavy_check_mark:                  | :x:                       |
+| Fn Hot Keys                       | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Fans                              | :heavy_check_mark:                  | :heavy_check_mark:        |
     
 You can find more details of every model on their folder:
-(info for Gen1)[./thinkpad-e14-gen1/README.md]
-(info for Gen2)[./thinkpad-e14-gen2/README.md]
+[info for Gen1](./thinkpad-e14-gen1/README.md)
+[info for Gen2](./thinkpad-e14-gen2/README.md)
 
 
