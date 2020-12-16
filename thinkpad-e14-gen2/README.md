@@ -70,4 +70,4 @@ Works fine on default options.
 
 ### Conclusions
 
-Second gen works fine but the lack of trackpoint can get annoying considering it is a staple of thinkpad designs.
+works fine once grub configs have been changed. Great laptop and works well with linux.
