@@ -89,6 +89,8 @@ In case you are not able to twak your AMD GPU with corectrl, put this as boot pa
 To be honest this should work out of the box on any distro running 5.4+ kernel. However, some people say after some time the touchpad and trackpad stop working (some kind of freeze?). I order to fix it add the following line in your grub configuration file.
     
     GRUB_CMDLINE_LINUX="rhgb quiet ... psmouse.elantech_smbus=0 ..."
+
+more info: [Grub-Config](../grub-config/README.md)
     
 #### Suspend & Hibernation
 

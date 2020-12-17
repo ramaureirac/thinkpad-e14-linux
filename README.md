@@ -21,7 +21,7 @@ Tweaks can be found on the specific laptops folder.
 | Graphics Card (AMD)               | :o:                                 | :heavy_check_mark:        |
 | Graphics Card (Nvidia)            | *Not available*                     | :o:                       |
 | Keyboard and Touchpad             | :heavy_check_mark:                  | :heavy_check_mark:        |
-| Trackpoint and buttons            | :o:                                 | :x:                       |
+| Trackpoint and buttons            | :o:                                 | :o:                       |
 | NVMe & Internal SSD               | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Screen                            | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Suspend & Hibernation             | :o:                                 | :heavy_check_mark:        |
@@ -34,5 +34,7 @@ Tweaks can be found on the specific laptops folder.
 You can find more details of every model on their folder:
 [Gen1](./thinkpad-e14-gen1/README.md),
 [Gen2](./thinkpad-e14-gen2/README.md)
+
+[Grub-Config](./grub-config/README.md) to fix the touchpoint
 
 
