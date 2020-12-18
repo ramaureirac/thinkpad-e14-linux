@@ -1,6 +1,6 @@
 ## Grub Config for E14 gen2/gen1
 
-`sudo nano etc/grub/config`
+`sudo nano /etc/default/grub`
 
 change the line to this:
 `GRUB_CMDLINE_LINUX="rhgb quiet psmouse.elantech_smbus=0"`
