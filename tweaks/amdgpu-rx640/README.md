@@ -57,7 +57,7 @@ Once CoreCtrl is installed make sure to append *amdgpu.ppfeaturemask=0xffffffff*
     
 Now, append the line at the end of *GRUB_CMDLINE_LINUX_DEFAULT*
 
-    GRUB_CMDLINE_LINUX_DEFAULT="<other_params>... amdgpu.ppfeaturemask=0xffffffff"
+    GRUB_CMDLINE_LINUX_DEFAULT="rhgb quiet (...) amdgpu.ppfeaturemask=0xffffffff"
     
 Finally restart your device:
 
