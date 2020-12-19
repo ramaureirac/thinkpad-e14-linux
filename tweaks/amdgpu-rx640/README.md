@@ -65,7 +65,7 @@ Finally restart your device:
     
 #### Set a gamming profile
 
-For some reason the default profile enables up to 25W for your dedicated GPU wich is too much and maybe you could make irreversilbe damage on your hardware, also it will overheat reaching up to 85°C. So make sure to set power limit at 18. On this value it will work fine and you will even play some games.
+For some reason the default profile enables up to 25W for your dedicated GPU wich is too much and maybe you could damage on your hardware. So make sure to set power limit at 18. On this value it will work fine and you will even play some games.
 
 ![](https://github.com/rodmaureirac/thinkpad-e14-linux/blob/main/tweaks/amdgpu-rx640/corectrl-rx640.png?raw=true)
 
