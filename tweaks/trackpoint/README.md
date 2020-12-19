@@ -1,14 +1,36 @@
-## Grub Config for E14 gen2/gen1
+## Thinkpad E14 Enable Trackpoint & Buttons
+
+Not able to use your trackpoint? this guide is for you:
+
+
+| Model         | Working             |
+|---------------|---------------------|
+| E1 First Gen  | :heavy_check_mark:  |
+| E1 Second Gen | :heavy_check_mark:  |
+
+
+First of all you need to open a terminal and edit the `/etc/default/grub` file. In this case we will be using `nano`:
 
 `sudo nano /etc/default/grub`
 
-change the line to this:
-`GRUB_CMDLINE_LINUX="rhgb quiet psmouse.elantech_smbus=0"`
+Append `psmouse.elantech_smbus=0` at the end of the `GRUB_CMDLINE_LINUX`line. Something like this:
 
-then:
+`GRUB_CMDLINE_LINUX="rhgb quiet (...) psmouse.elantech_smbus=0"`
+
+Then make sure to rebuild your grub with the follwing command (Ubuntu):
+
+`sudo update-grub`
+
+Grub rebuild for non Ubuntu-based distros (Legacy):
+
 `sudo grub2-mkconfig -o /boot/grub2/grub.cfg`
-or `sudo update-grub` (ubuntu systems)
+
+Grub rebuild for non Ubuntu-based distros (EFI):
+
+`sudo grub2-mkconfig -o /boot/efi/EFI/<your-distro>/grub.cfg`
+
+Then you'll need to restart your system:
 
 `reboot`
 
-### You should now have working trackpoint and buttons.
+##### You should now have working trackpoint and buttons.
