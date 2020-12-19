@@ -90,7 +90,7 @@ To be honest this should work out of the box on any distro running 5.4+ kernel. 
     
     GRUB_CMDLINE_LINUX="rhgb quiet ... psmouse.elantech_smbus=0 ..."
 
-more info: [Grub-Config](../grub-config/README.md)
+more info: [Enable Trackpoint](../tweaks/trackpoint/README.md)
     
 #### Suspend & Hibernation
 
