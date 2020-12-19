@@ -30,11 +30,19 @@ Tweaks can be found on the specific laptops folder.
 | Fingerprint Reader                | :x:                                 | :x:                       |
 | Fn Hot Keys                       | :heavy_check_mark:                  | :heavy_check_mark:        |
 | Fans                              | :heavy_check_mark:                  | :heavy_check_mark:        |
-    
-You can find more details of every model on their folder:
-[Gen1](./thinkpad-e14-gen1/README.md),
-[Gen2](./thinkpad-e14-gen2/README.md)
 
-[Grub-Config](./grub-config/README.md) to fix the touchpoint
+
+### Models
+You can find more details about each model on their folder
+- [Thinkpad E14 First-Gen](./thinkpad-e14-gen1/README.md),
+- [Thinkpad E14 Second-Gen](./thinkpad-e14-gen2/README.md)
+
+### Quick Fixes
+Even when Lenovo Thinkpad E14 series are friendly with Linux, there are some tweaks you'll need to do in order make your Linux distro fully compatible with your hardware (check above table). So make sure to see those post installation steps.
+
+- [Enable Trackpoint & Buttons](./tweaks/trackpoint/README.md) : In case your trackpoint is detected by your system but not usable. Also fixes the issue where it just stop working. This problem was found under kernel 5.4 - 5.9.
+- [Dedicated AMD GPU](./tweaks/amdgpu-rx640/README.md) : In case you are not able to run specific software with your dedicated AMD GPU. This problem was found on old linux distributions. Anyways make sure to configure your GPU properly.
+- [Suspend & Hibernation](./tweaks/suspend-and-hibernation/README.md) : There is an issue with newer BIOS updates and the Thinkpad E14 First-Gen. Check this in case your not able to recover after suspend or hibernation.
+- [Intel CPU Throttling](./tweaks/intel-cpu-throttling/README.md) : Performance issues? Check this guide in order to get a better experience with Intel CPUs. Also checkout TLP in order to extend your battery life.
 
 
