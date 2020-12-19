@@ -9,13 +9,18 @@ Not able to use your trackpoint? this guide is for you:
 | E1 Second Gen | :heavy_check_mark:  |
 
 
-First of all you need to open a terminal and edit the `/etc/default/grub` file. In this case we will be using `nano`:
+#### Edit grub config file
+
+First of all you need to open a terminal and edit the */etc/default/grub* file. In this case we will be using *nano*:
 
 `sudo nano /etc/default/grub`
 
-Append `psmouse.elantech_smbus=0` at the end of the `GRUB_CMDLINE_LINUX`line. Something like this:
+Append *psmouse.elantech_smbus=0* at the end of the *GRUB_CMDLINE_LINUX* line. Something like this:
 
 `GRUB_CMDLINE_LINUX="rhgb quiet (...) psmouse.elantech_smbus=0"`
+
+
+#### Rebuild grub
 
 Then make sure to rebuild your grub with the follwing command (Ubuntu):
 
@@ -28,6 +33,8 @@ Grub rebuild for non Ubuntu-based distros (Legacy):
 Grub rebuild for non Ubuntu-based distros (EFI):
 
 `sudo grub2-mkconfig -o /boot/efi/EFI/<your-distro>/grub.cfg`
+
+#### Restart system
 
 Then you'll need to restart your system:
 
