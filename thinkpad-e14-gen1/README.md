@@ -74,15 +74,8 @@ Now, when ever you wanna start an application with dedicated graphics, use the f
 
     # start VLC with AMD dedicated graphics
     DRI_PRIME=1 vlc
-    
-Now, assuming you wanna play some video games you should install corectrl (for tweak your gpu) and gamemode (optional, increase cpu performance). The only thing you wanna do with them is to lowe the TDP for your AMD GPU; default is 25 (wich is too much), so set it to 18 and gamming will be fine (CS:GO, Dota, Tomb Raider, etc.). Install corectrl is quite easy on any Linux distro, so I'll provide you the links where you can find the official documentation:
 
-- https://gitlab.com/corectrl/corectrl
-- https://github.com/FeralInteractive/gamemode
-
-In case you are not able to twak your AMD GPU with corectrl, put this as boot parameter on your grub configuration file.
-
-    GRUB_CMDLINE_LINUX="rhgb quiet ... amdgpu.ppfeaturemask=0xffffffff ..."
+More info: [AMD RX640 GPU](../tweaks/amdgpu-rx640/README.md)
 
 #### Keyboard, Touchpad & Trackpoint
 
@@ -90,7 +83,7 @@ To be honest this should work out of the box on any distro running 5.4+ kernel. 
     
     GRUB_CMDLINE_LINUX="rhgb quiet ... psmouse.elantech_smbus=0 ..."
 
-more info: [Enable Trackpoint](../tweaks/trackpoint/README.md)
+More info: [Enable Trackpoint](../tweaks/trackpoint/README.md)
     
 #### Suspend & Hibernation
 
