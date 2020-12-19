@@ -40,4 +40,4 @@ Then you'll need to restart your system:
 
 `reboot`
 
-##### You should now have working trackpoint and buttons.
+#### You should now have working trackpoint and buttons.
