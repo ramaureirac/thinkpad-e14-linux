@@ -1,0 +1,1 @@
+## Thinkpad E14 (First-Gen) Suspend & Hbernation

@@ -1,0 +1,1 @@
+## AMD Dedicated GPU RX640
