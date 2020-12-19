@@ -43,7 +43,7 @@ In this secction I'll show a detailed overview about Linux compatibility for Len
 | Graphics Card (Intel)             | :heavy_check_mark:                  | Working!                                                                        |
 | Graphics Card (Intel)             | :heavy_check_mark:                  | Working!                                                                        |
 | Keyboard and Touchpad             | :heavy_check_mark:                  | Working!,                                                                       |
-| Trackpoint and buttons            | :o:                                 | Working, append "psmouse.elantech_smbus=0" as boot parameter [here](../grub.md) |               
+| Trackpoint and buttons            | :o:                                 | Working, append "psmouse.elantech_smbus=0" as boot parameter [here](../tweaks/trackpoint/README.md) |               
 | NVMe & Internal SSD               | :heavy_check_mark:                  | Working!                                                                        |
 | Screen                            | :heavy_check_mark:                  | Working!                                                                        |
 | Suspend & Hibernation             | :heavy_check_mark:                  | Windows suspend works but ironicly linux suspend doesnt (bios options)          |                 
@@ -62,7 +62,8 @@ In case you are not able to twak your AMD GPU with corectrl, put this as boot pa
 
 #### Keyboard, Touchpad & Trackpoint
 
-all of it works if you add the [grub config](../grub-config/README.md).
+all of it works if you add the [grub-config](../tweaks/trackpoint/README.md)
+
     
 #### Suspend & Hibernation
 
