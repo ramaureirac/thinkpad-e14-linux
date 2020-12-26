@@ -10,7 +10,7 @@ From [Lenovo's Support Center](https://pcsupport.lenovo.com/us/en/products/lapto
 
 ### Disable Rollback BIOS
 
-Default BIOS configuration present some kind of rollback protection (wich does not allow us to apply the downgrade). However is super easy to diable it. Just go inside *Security*, then *UEFI BIOS Update Options* and uncheck *Secure RollBack Protection*. Here is my configuration as example
+Default BIOS configuration present some kind of rollback protection (wich does not allow us to apply the downgrade). However is super easy to disable it. Just go inside *Security*, then *UEFI BIOS Update Options* and uncheck *Secure RollBack Protection*. Here is my configuration as example
 
 ![](./bios-settings.jpg?raw=true)
 
