@@ -1,6 +1,6 @@
 ## Thinkpad E14 (First-Gen) Suspend & Hbernation
 
-When I recived my Thinkpad E14 (first-gen) it arrives with BIOS v1.09 wich for some reason has traoubles with suspension (black screen). In order to fix this issue you'll have to apply a BIOS downgrade. In case you don't know how check this guide.
+When I recived my Thinkpad E14 (first-gen) it arrives with BIOS v1.09 wich for some reason has troubles with suspension (black screen). In order to fix this issue you'll have to apply a BIOS downgrade. In case you don't know how check this guide.
 
 ### Download compatible BIOS
 
