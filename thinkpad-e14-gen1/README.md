@@ -89,9 +89,7 @@ More info: [Enable Trackpoint](../tweaks/trackpoint/README.md)
 
 When I recived my Thinkpad it arrived with BIOS v1.09 wich for some reason wasn't able to recover after suspend (black screen on every monitor). In order to fix it you may need to apply a BIOS Downgrade by downloading the version 1.06 (iso file) from Lenovo's support center. Then flash it on a USB with Etcher. Make sure to enable BIOS rollback on BIOS settings!
 
-See also:
-- https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-edge-laptops/thinkpad-e14-type-20ra-20rb/downloads/DS541516
-- https://support.lenovo.com/us/en/solutions/ht117858-bios-rollback-flash-failure-secure-flash-authentication-failed-when-secure-rollback-prevention-enabled-thinkpad-t450-t450s
+More info: [Fix Suspend & Hibernation](../tweaks/suspend-and-hibernation/README.md) 
 
 ### Conclusions
 
