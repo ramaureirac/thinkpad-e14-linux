@@ -22,13 +22,14 @@ So I bought a Thinkpad E14 (second-gen).
 
 I also tested various Linux distributions on this machine. Here they are some of them. To be honnest there are some easy tweaks you must do in order to get your system fully compatible with your favorite distro (see next secction). In my personal opinion Fedora 33 and Pop! where the best options out there (at least for me).
 
-| Distro        | Status             | Additional notes                                                             |
-|---------------|--------------------|------------------------------------------------------------------------------|
-| Debian 10     | :x:                | Not able to boot. Debian testing presents random black flickering with GNOME |
-| Ubuntu 20.04  | :heavy_check_mark: | Everything works out of the box! (update kernel for better AMD support)      |
-| Fedora 33     | :heavy_check_mark: | Everything works out of the box!                                             |
-| Arch Linux    | :heavy_check_mark: | Everything works out of the box!                                             |
-| Pop! OS 20.10 | :heavy_check_mark: | Everything works out of the box!                                             |
+| Distro            | Status             | Additional notes                                                             |
+|-------------------|--------------------|------------------------------------------------------------------------------|
+| Debian 10         | :x:                | Not able to boot                                                             |
+| Debian Testing    | :o:                | Requires firmware-sof-signed for audio and firmware-iwlwifi for Wi-Fi        |
+| Ubuntu 20.04      | :heavy_check_mark: | Everything works out of the box! (update kernel for better AMD support)      |
+| Fedora 33         | :heavy_check_mark: | Everything works out of the box!                                             |
+| Arch Linux        | :heavy_check_mark: | Everything works out of the box!                                             |
+| Pop! OS 20.10     | :heavy_check_mark: | Everything works out of the box!                                             |
 
 ### Current State
 
@@ -43,7 +44,7 @@ In this secction I'll show a detailed overview about Linux compatibility for Len
 | Graphics Card (Intel)             | :heavy_check_mark:                  | Working!                                                                        |
 | Graphics Card (Intel)             | :heavy_check_mark:                  | Working!                                                                        |
 | Keyboard and Touchpad             | :heavy_check_mark:                  | Working!,                                                                       |
-| Trackpoint and buttons            | :o:                                 | Working, append "psmouse.elantech_smbus=0" as boot parameter [here](../tweaks/trackpoint/README.md) |               
+| Trackpoint and buttons            | :o:                                 | Working, append "psmouse.elantech_smbus=0" as boot parameter [here](../tweaks/trackpoint/README.md) | 
 | NVMe & Internal SSD               | :heavy_check_mark:                  | Working!                                                                        |
 | Screen                            | :heavy_check_mark:                  | Working!                                                                        |
 | Suspend & Hibernation             | :heavy_check_mark:                  | Windows suspend works but ironicly linux suspend doesnt (bios options)          |                 
@@ -52,23 +53,15 @@ In this secction I'll show a detailed overview about Linux compatibility for Len
 | Fingerprint Reader                | :x:                                 | Definitely not working                                                          |
 | Fn Hot Keys                       | :heavy_check_mark:                  | Working except for F11                                                          |
 | Fans                              | :heavy_check_mark:                  | Working!                                                                        |
-    
-Now, assuming you wanna play some video games you should install corectrl (for tweak your gpu) and gamemode (optional, increase cpu performance). Install corectrl is quite easy on any Linux distro, so I'll provide you the links where you can find the official documentation:
-
-- https://gitlab.com/corectrl/corectrl
-- https://github.com/FeralInteractive/gamemode
-
-In case you are not able to twak your AMD GPU with corectrl, put this as boot parameter on your grub configuration file.
 
 #### Keyboard, Touchpad & Trackpoint
 
 all of it works if you add the [grub-config](../tweaks/trackpoint/README.md)
 
-    
 #### Suspend & Hibernation
 
 Works fine on default options.
 
 ### Conclusions
 
-works fine once grub configs have been changed. Great laptop and works well with linux.
+Works fine once grub configs have been changed. Great laptop and works well with linux.
