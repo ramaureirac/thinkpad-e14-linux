@@ -44,5 +44,6 @@ Even when Lenovo Thinkpad E14 series are friendly with Linux, there are some twe
 - [Dedicated AMD GPU](./tweaks/amdgpu-rx640/README.md) : In case you are not able to run specific software with your dedicated AMD GPU. This problem was found on old linux distributions. Anyways make sure to configure your GPU properly.
 - [Suspend & Hibernation](./tweaks/suspend-and-hibernation/README.md) : There is an issue with newer BIOS updates and the Thinkpad E14 First-Gen. Check this in case your not able to recover after suspend or hibernation.
 - [Intel CPU Throttling](./tweaks/intel-cpu-throttling/README.md) : Performance issues? Check this guide in order to get a better experience with Intel CPUs. Also checkout TLP in order to extend your battery life.
+- [Speakers issues in Second Gen](./tweaks/audio/README.md): Fix speakers by disabling the internal mic.
 
 
