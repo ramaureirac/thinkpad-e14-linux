@@ -13,7 +13,7 @@ Tweaks can be found on the specific laptops folder.
 
 | Device                            | First Gen                           | Second Gen                | Details                                   |
 |-----------------------------------|-------------------------------------|---------------------------|-------------------------------------------|
-| Audio Input & Output              | :heavy_check_mark:                  | :exclamation:             | Some 2nd Gen models have mic problems     |
+| Audio Input & Output              | :heavy_check_mark:                  | :grey_exclamation:        | Some 2nd Gen models have mic problems     |
 | Battery                           | :heavy_check_mark:                  | :heavy_check_mark:        |                                           |
 | Bluetooth                         | :heavy_check_mark:                  | :heavy_check_mark:        |                                           |
 | Camera                            | :heavy_check_mark:                  | :heavy_check_mark:        |                                           |
