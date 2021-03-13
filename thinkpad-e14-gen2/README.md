@@ -37,7 +37,7 @@ In this secction I'll show a detailed overview about Linux compatibility for Len
 
 | Device                            | Status                              | Additional notes                                                                |
 |-----------------------------------|-------------------------------------|---------------------------------------------------------------------------------|
-| Audio Input & Output              | :heavy_check_mark:                  | Working, when you connect headphones internal mic will be disable               |
+| Audio Input & Output              | :grey_exclamation:                  | Some 2nd gen models have mic problems                                           |
 | Battery                           | :heavy_check_mark:                  | Up to four-six hours of battery life!                                           | 
 | Bluetooth                         | :heavy_check_mark:                  | Working!                                                                        |
 | Camera                            | :heavy_check_mark:                  | Working, for some reason Kamoso applies a red filter                            |
@@ -53,6 +53,10 @@ In this secction I'll show a detailed overview about Linux compatibility for Len
 | Fingerprint Reader                | :x:                                 | Definitely not working                                                          |
 | Fn Hot Keys                       | :heavy_check_mark:                  | Working except for F11                                                          |
 | Fans                              | :heavy_check_mark:                  | Working!                                                                        |
+
+#### Audio Input & Output
+
+It seems some second gen laptops are having issues with the speakers. The ways to fix it is by disabling the internal mic. Please checkout [Speakers issues in Second Gen](../tweaks/audio/README.md)
 
 #### Keyboard, Touchpad & Trackpoint
 
