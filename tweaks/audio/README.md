@@ -5,7 +5,7 @@ not know why this happens, however Barabazs found a solution by disabling the in
 
 ### By edditing GRUB
 
-Open your favorite editor and modify `/etc/default/grub` and append inside the `GRUB_CMDLINE_LINUX_DEFAULT` entry the following line `snd_hda_intel.dmic_detect=0`
+Open your favorite editor and append this line `snd_hda_intel.dmic_detect=0` inside the `GRUB_CMDLINE_LINUX_DEFAULT` entry on `/etc/default/grub` config file
 
     GRUB_CMDLINE_LINUX_DEFAULT="quiet splash ... snd_hda_intel.dmic_detect=0"
     
