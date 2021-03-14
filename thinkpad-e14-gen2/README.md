@@ -12,6 +12,7 @@ So I bought a Thinkpad E14 (second-gen).
 
 | Device        | Hardware                       |
 |---------------|--------------------------------|
+| MODEL ID      | 20TBS08F00                     |
 | CPU           | Intel i5-1135G7 @4.2Ghz        |
 | GPU           | Intel iris Xe                  |
 | RAM           | 8GB DDR4 3200hz                |
