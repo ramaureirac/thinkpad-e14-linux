@@ -1,4 +1,4 @@
-## Lenovo Thinkpad E14 second Gen
+## Lenovo Thinkpad E14 Second Gen (Intel)
 
 The following document provides an overview about GNU/Linux (kernel 5.4+) for the Lenovo Thinkpad E14 (second-Gen). Please note this info is based on my own experience and it doesn't represent an official support for this machine. If you follow this guide, no one is responsible for any damage to your hardware.
 
@@ -34,7 +34,7 @@ I also tested various Linux distributions on this machine. Here they are some of
 
 ### Current State
 
-In this secction I'll show a detailed overview about Linux compatibility for Lenovo Thinkpad E14 (second-gen). As I said before, there are some tweaks you must do  on your system in order to get a fully functional Linux Workstation. Please note I've made this table with Linux 5.4 LTS. The current version (5.9) doesn't require extra tweaks except for BIOS downgrade.
+In this secction I'll show a detailed overview about Linux compatibility for Lenovo Thinkpad E14 (second-gen). As I said before, there are some tweaks you must do  on your system in order to get a fully functional Linux Workstation. Please note I've made this table with Linux 5.4 LTS.
 
 | Device                            | Status                              | Additional notes                                                                |
 |-----------------------------------|-------------------------------------|---------------------------------------------------------------------------------|
