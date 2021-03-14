@@ -4,32 +4,32 @@ The following repository provides an overview about Linux support for Lenovo Thi
 
 ### Contribution
 
-If you want to contribute to get Linux running smoothly on the Lenovo Thinkpad E14 series, report all findings on how to get devices working as pull requests! All help is appreciated.
+If you want to contribute to get Linux running smoothly on the Lenovo Thinkpad E14 series, report all findings on how to get devices working as pull requests! All help is appreciated. Also, remember to share your model id (this is not really necesary, but it will help us to have a better documentaion for each hardware configuration).
 
 ### Current Status
 
 The table shows up Linux 5.4+ support status for each device on this laptop series. Note that circle means it works but need extra tweak or configuration.
 Tweaks can be found on the specific laptops folder.
 
-| Device                            | First Gen                           | Second Gen                | Details                                           |
-|-----------------------------------|-------------------------------------|---------------------------|---------------------------------------------------|
-| Audio Input & Output              | :heavy_check_mark:                  | :grey_exclamation:        | Some 2nd Gen models have mic problems             |
-| Battery                           | :heavy_check_mark:                  | :heavy_check_mark:        |                                                   |
-| Bluetooth                         | :heavy_check_mark:                  | :heavy_check_mark:        |                                                   |
-| Camera                            | :heavy_check_mark:                  | :heavy_check_mark:        |                                                   |
-| Graphics Card (Intel)             | :heavy_check_mark:                  | :heavy_check_mark:        |                                                   |
-| Graphics Card (AMD)               | :o:                                 | :heavy_check_mark:        | Dedicated GPU on first gen requieres extra tweaks |
-| Graphics Card (Nvidia)            | :heavy_minus_sign:                  | :grey_question:           | Nvidia not tested yet                             |
-| Keyboard and Touchpad             | :heavy_check_mark:                  | :heavy_check_mark:        |                                                   |
-| Trackpoint and buttons            | :o:                                 | :o:                       | Working, but requires some extra config           |
-| NVMe & Internal SSD               | :heavy_check_mark:                  | :heavy_check_mark:        |                                                   |
-| Screen                            | :heavy_check_mark:                  | :heavy_check_mark:        |                                                   |
-| Suspend & Hibernation             | :o:                                 | :heavy_check_mark:        | Suspension in first gen requires BIOS downgrade   |
-| Wi-Fi                             | :heavy_check_mark:                  | :heavy_check_mark:        |                                                   |
-| USB                               | :heavy_check_mark:                  | :heavy_check_mark:        |                                                   |
-| Fingerprint Reader                | :x:                                 | :x:                       |                                                   |
-| Fn Hot Keys                       | :heavy_check_mark:                  | :heavy_check_mark:        | Except F11                                        |
-| Fans                              | :heavy_check_mark:                  | :heavy_check_mark:        |                                                   |
+| Device                            | First Gen                           | Second Gen                | Details                                                               |
+|-----------------------------------|-------------------------------------|---------------------------|-----------------------------------------------------------------------|
+| Audio Input & Output              | :heavy_check_mark:                  | :grey_exclamation:        | Some 2nd Gen models have mic problems                                 | 
+| Battery                           | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
+| Bluetooth                         | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
+| Camera                            | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
+| Graphics Card (Intel)             | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
+| Graphics Card (AMD)               | :o:                                 | :heavy_check_mark:        | Dedicated GPU on first gen requieres extra tweaks                     |
+| Graphics Card (Nvidia)            | :heavy_minus_sign:                  | :grey_question:           | Nvidia not tested yet                                                 |
+| Keyboard and Touchpad             | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
+| Trackpoint and buttons            | :o:                                 | :o:                       | Working, but requires some extra config                               |
+| NVMe & Internal SSD               | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
+| Screen                            | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
+| Suspend & Hibernation             | :o:                                 | :heavy_check_mark:        | Suspension in first gen requires BIOS downgrade                       |
+| Wi-Fi                             | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
+| USB                               | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
+| Fingerprint Reader                | :x:                                 | :x:                       |                                                                       |
+| Fn Hot Keys                       | :heavy_check_mark:                  | :heavy_check_mark:        | Some keys doesn't work (F11 for 1st gen. F9-F11 for 2nd gen)          |
+| Fans                              | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
 
 
 ### Models
