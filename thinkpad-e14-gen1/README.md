@@ -4,7 +4,7 @@ The following document provides an overview about GNU/Linux (kernel 5.4+) for th
 
 According to Lenovo's web site. There are three base models for the Lenovo Thinkpad E14 according to their wireless network adapter; wich can be a Realtek RTL8822CE or an Intel Wireless AC9560/AX201. A part of that, everything else is almost identical except for the posibility to include a dedicated GPU (AMD Radeon 625/AMD Radeon RX640)
 
-To checks if hardware works, all test were done with some Linux Distributions (Ubuntu, Fedora and Arch) To state the obvious: The newer kernel the better.
+To check if hardware works, all test were done with some Linux Distributions (Ubuntu, Fedora and Arch) To state the obvious: The newer kernel the better.
 
 #### Tested hardware
 
@@ -12,6 +12,7 @@ So I bought a Thinkpad E14 (first-gen). I got to say it's one of the most Linux 
 
 | Device        | Hardware                       |
 |---------------|--------------------------------|
+| MODEL ID      | 20RBS0GX00                     |
 | CPU           | Intel i5-10210U @4.2Ghz        |
 | GPU           | Intel UHD + AMD RX640 GDDR5    |
 | RAM           | 16GB DDR4 2666Mhz              |
