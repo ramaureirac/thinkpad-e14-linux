@@ -21,7 +21,7 @@ So I bought a Thinkpad E14 (second-gen).
 
 #### Linux distribution compatibility
 
-I also tested various Linux distributions on this machine. Here they are some of them. To be honnest there are some easy tweaks you must do in order to get your system fully compatible with your favorite distro (see next secction). In my personal opinion Fedora 33 and Pop! where the best options out there (at least for me).
+I also tested various Linux distributions on this machine. Here they are some of them. To be honnest there are some easy tweaks you must do in order to get your system fully compatible with your favorite distro (see next secction). In my personal opinion Fedora 33 and Pop! where the best options out there (at least for me)
 
 | Distro            | Status             | Additional notes                                                             |
 |-------------------|--------------------|------------------------------------------------------------------------------|
