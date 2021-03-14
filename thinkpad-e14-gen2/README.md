@@ -52,7 +52,7 @@ In this secction I'll show a detailed overview about Linux compatibility for Len
 | Wi-Fi                             | :heavy_check_mark:                  | Intel Wireless works out of the box!                                            |
 | USB                               | :heavy_check_mark:                  | Working!                                                                        |
 | Fingerprint Reader                | :x:                                 | Definitely not working                                                          |
-| Fn Hot Keys                       | :heavy_check_mark:                  | Working except for F11                                                          |
+| Fn Hot Keys                       | :heavy_check_mark:                  | Working except for F9, F10 and F11                                              |
 | Fans                              | :heavy_check_mark:                  | Working!                                                                        |
 
 #### Audio Input & Output
