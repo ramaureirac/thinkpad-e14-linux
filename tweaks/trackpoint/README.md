@@ -34,11 +34,11 @@ Then make sure to rebuild your grub with the follwing command (Ubuntu):
 
     sudo update-grub
 
-Grub rebuild for non Ubuntu-based distros (Legacy):
+Grub rebuild for non Ubuntu-based distros ([Unified](https://fedoraproject.org/wiki/Changes/UnifyGrubConfig)/Legacy):
 
     sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 
-Grub rebuild for non Ubuntu-based distros (EFI):
+Grub rebuild for non Ubuntu-based distros (EFI) [depricated in fedora 34+](https://fedoraproject.org/wiki/Changes/UnifyGrubConfig):
 
     sudo grub2-mkconfig -o /boot/efi/EFI/<your-distro>/grub.cfg
 
