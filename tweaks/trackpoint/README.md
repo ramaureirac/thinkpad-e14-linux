@@ -3,10 +3,10 @@
 Not able to use your trackpoint? this guide is for you:
 
 
-| Model         | Working             |
-|---------------|---------------------|
-| E1 First Gen  | :heavy_check_mark:  |
-| E1 Second Gen | :heavy_check_mark:  |
+| Model          | Working             |
+|----------------|---------------------|
+| E14 First Gen  | :heavy_check_mark:  |
+| E14 Second Gen | :heavy_check_mark:  |
 
 ### New alternative
 
