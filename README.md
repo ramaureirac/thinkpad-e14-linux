@@ -2,6 +2,9 @@
 
 The following repository provides an overview about Linux support for Lenovo Thinkpad E14 (it should work with E15 as well). Please note this documents are based on my own experience and it doesn't means an official support for this models. If you follow this guide, no one is responsible for any damage to your hardware.
 
+### touchpoint drivers officially working
+e14 and e15 gen 1 and 2 are now officially supported in the latest version of fedora 34 other distros will follow suit soon likely.
+
 ### Contribution
 
 If you want to contribute to get Linux running smoothly on the Lenovo Thinkpad E14 series, report all findings on how to get devices working as pull requests! All help is appreciated. Also, remember to share your model id (this is not really necesary, but it will help us to have a better documentaion for each hardware configuration).
@@ -21,7 +24,7 @@ Tweaks can be found on the specific laptops folder.
 | Graphics Card (AMD)               | :o:                                 | :heavy_check_mark:        | Dedicated GPU on first gen requieres extra tweaks                     |
 | Graphics Card (Nvidia)            | :heavy_minus_sign:                  | :grey_question:           | Nvidia not tested yet                                                 |
 | Keyboard and Touchpad             | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Trackpoint and buttons            | :o:                                 | :o:                       | Working, but requires some extra config                               |
+| Trackpoint and buttons            | :heavy_check_mark:                  | :heavy_check_mark:        | Working ootb on up to date distros but more stable distros require some extra config                             |
 | NVMe & Internal SSD               | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
 | Screen                            | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
 | Suspend & Hibernation             | :o:                                 | :heavy_check_mark:        | Suspension in first gen requires BIOS downgrade                       |
