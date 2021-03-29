@@ -1,3 +1,7 @@
+## #touchpoint drivers officially working
+
+e14 and e15 gen 1 and 2 are now officially supported in the latest version of fedora 34 other distros will follow suit soon likely.
+
 ## Thinkpad E14 Enable Trackpoint & Buttons
 
 Not able to use your trackpoint? this guide is for you:
