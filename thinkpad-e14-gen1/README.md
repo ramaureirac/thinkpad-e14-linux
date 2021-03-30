@@ -18,10 +18,10 @@ The checks if hardware works below were done with multiple Linux distributions. 
 | Trackpoint & Buttons        | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg)|
 | NVMe & Internal SSD         | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg)|
 | Screen                      | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg)|
-| Suspend & Hibernation       | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-sleep_issues-yellow.svg) |
+| Suspend & Hibernation       | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-sleep_issues-green.svg) |
 | WiFi                        | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) |
 | USB                         | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) |
-| Hot Keys                    | ![](https://img.shields.io/badge/1st_vanila-partially_working-yellow.svg) ![](https://img.shields.io/badge/1st_polaris-partially_working-yellow.svg) |
+| Hot Keys                    | ![](https://img.shields.io/badge/1st_vanila-partially_working-green.svg) ![](https://img.shields.io/badge/1st_polaris-partially_working-green.svg) |
 | Fans                        | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg)  |
 | Fingerprint Reader          | ![](https://img.shields.io/badge/1st_vanila-not_working-red.svg) ![](https://img.shields.io/badge/1st_polaris-not_working-red.svg)  |
 
@@ -29,7 +29,7 @@ The checks if hardware works below were done with multiple Linux distributions. 
 
 | Distro                      | Status                                    |
 | ----------------------------|-------------------------------------------|
-| Fedora 34                   | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-tweak_required-yellow.svg) |
-| Ubuntu 20.10                | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-tweak_required-yellow.svg) |
-| Arch Linux                  | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-tweak_required-yellow.svg) |
+| Fedora 34                   | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-tweak_required-green.svg) |
+| Ubuntu 20.10                | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-tweak_required-green.svg) |
+| Arch Linux                  | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-tweak_required-green.svg) |
 | Debian 10                   | ![](https://img.shields.io/badge/1st_vanila-not_working-red.svg) ![](https://img.shields.io/badge/1st_polaris-not_working-red.svg)  |
