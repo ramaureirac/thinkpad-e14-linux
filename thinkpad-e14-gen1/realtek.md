@@ -1,4 +1,4 @@
-# Thinkpad E14 Realtek
+# Thinkpad E14 First Gen (Realtek)
 
 | Device        | Hardware                                                                  |
 |---------------|---------------------------------------------------------------------------|
