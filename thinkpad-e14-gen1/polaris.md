@@ -1,4 +1,4 @@
-# Thinkpad E14 Polaris
+# Thinkpad E14 First Gen (Polaris)
 
 | Device        | Hardware                                                                      |
 |---------------|-------------------------------------------------------------------------------|
