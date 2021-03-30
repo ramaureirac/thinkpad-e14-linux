@@ -1,44 +1,43 @@
-## Current State of GNU/Linux on Lenovo Thinkpad E14 Gen1/Gen2
+## Current State of GNU/Linux on Lenovo Thinkpad E14 Series
 
-The following repository provides an overview about Linux support for Lenovo Thinkpad E14 (it should work with E15 as well). Please note this documents are based on my own experience and it doesn't means an official support for this models. If you follow this guide, no one is responsible for any damage to your hardware.
-
-### touchpoint drivers officially working
-e14 and e15 gen 1 and 2 are now officially supported in the latest version of fedora 34 other distros will follow suit soon likely.
+The following repository provides an overview about GNU/Linux support for some diferent models of the Lenovo Thinkpad E14 family (it should work with E15 series as well). Please note this documents are based on our own experience and it doesn't represent an official support for these models. If you follow this guide, no one is responsible for any damage to your hardware. If you wish to purchase one of these laptops, make sure that it complies with the same hardware configuration indicated in this repository. Remember that some devices may change depending on the market and region to which they belong.
 
 ### Contribution
 
 If you want to contribute to get Linux running smoothly on the Lenovo Thinkpad E14 series, report all findings on how to get devices working as pull requests! All help is appreciated. Also, remember to share your model id (this is not really necesary, but it will help us to have a better documentaion for each hardware configuration).
 
+### Current ThinkPad E14 Models
+
+I initially thought of this repository as being exclusive to the first generation Lenovo ThinkPad E14. However, thanks to the support of the community, today we can provide a base documentation for different sub-models of the family as well as the second wave of laptops. Unfortunately we have not yet been able to describe every existing model and therefore we recommend to purchase only those that have the same configuration as the ones we document in this repository. That said, we present the models that we know exist around the world. You can clic them in order to know their details.
+
+| Generation            | Available Models                        |
+|-----------------------|-----------------------------------------|
+| First                 | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-tweak_required-green.svg) ![](https://img.shields.io/badge/1st_realtek-untested-lightgrey.svg) |
+| Second                | ![](https://img.shields.io/badge/2nd_vanila-tweak_required-green.svg) ![](https://img.shields.io/badge/2nd_iris-tweak_required-green.svg) ![](https://img.shields.io/badge/2nd_ryzen-untested-lightgrey.svg) ![](https://img.shields.io/badge/2nd_nvidia-untested-lightgrey.svg) |
+
+
 ### Current Status
 
-The table shows up Linux 5.4+ support status for each device on this laptop series. Note that circle means it works but need extra tweak or configuration.
-Tweaks can be found on the specific laptops folder.
+The checks if hardware works below were done with multiple Linux distributions. To state the obvious: The newer the kernel the better. The information below assumes that you run Linux 5.10 LTS or newer.
 
-| Device                            | First Gen                           | Second Gen                | Details                                                               |
-|-----------------------------------|-------------------------------------|---------------------------|-----------------------------------------------------------------------|
-| Audio Input & Output              | :heavy_check_mark:                  | :grey_exclamation:        | Some 2nd Gen models have mic problems                                 | 
-| Battery                           | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Bluetooth                         | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Camera                            | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Graphics Card (Intel)             | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Graphics Card (AMD)               | :o:                                 | :heavy_check_mark:        | Dedicated GPU on first gen requieres extra tweaks                     |
-| Graphics Card (Nvidia)            | :heavy_minus_sign:                  | :grey_question:           | Nvidia not tested yet                                                 |
-| Keyboard and Touchpad             | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Trackpoint and buttons            | :heavy_check_mark:                  | :heavy_check_mark:        | Working ootb on up to date distros but more stable distros require some extra config                             |
-| NVMe & Internal SSD               | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Screen                            | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Suspend & Hibernation             | :o:                                 | :heavy_check_mark:        | Suspension in first gen requires BIOS downgrade                       |
-| Wi-Fi                             | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| USB                               | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Fingerprint Reader                | :x:                                 | :x:                       |                                                                       |
-| Fn Hot Keys                       | :heavy_check_mark:                  | :heavy_check_mark:        | Some keys doesn't work (F11 for 1st gen. F9-F11 for 2nd gen)          |
-| Fans                              | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-
-
-### Models
-You can find more details about each model on their folder
-- [Thinkpad E14 First-Gen](./thinkpad-e14-gen1/README.md),
-- [Thinkpad E14 Second-Gen](./thinkpad-e14-gen2/README.md)
+| Device                      | Status                                    |
+| ----------------------------|-------------------------------------------|
+| Audio Input & Output        | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) ![](https://img.shields.io/badge/2nd_vanila-mic_issues-yellow.svg) ![](https://img.shields.io/badge/2nd_iris-mic_issues-yellow.svg) |
+| Battery                     | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)  |
+| Bluetooth                   | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)  |
+| Camera                      | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)  |
+| Intel Graphics              | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)  |
+| AMD Polaris Graphics        | ![](https://img.shields.io/badge/1st_polaris-working-success.svg) |
+| Keyboard & Touchpad         | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)  |
+| Trackpoint & Buttons        | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)  |
+| NVMe & Internal SSD         | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)  |
+| Screen                      | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)  |
+| Suspend & Hibernation       | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-sleep_issues-yellow.svg) ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)  |
+| WiFi                        | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)  |
+| USB                         | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)  |
+| Hot Keys                    | ![](https://img.shields.io/badge/1st_vanila-partially_working-yellow.svg) ![](https://img.shields.io/badge/1st_polaris-partially_working-yellow.svg) ![](https://img.shields.io/badge/2nd_vanila-partially_working-yellow.svg) ![](https://img.shields.io/badge/2nd_iris-partially_working-yellow.svg)  |
+| Fans                        | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)  |
+| Fingerprint Reader          | ![](https://img.shields.io/badge/1st_vanila-not_working-red.svg) ![](https://img.shields.io/badge/1st_polaris-not_working-red.svg) ![](https://img.shields.io/badge/2nd_vanila-not_working-red.svg) ![](https://img.shields.io/badge/2nd_iris-not_working-red.svg) |
 
 ### Quick Fixes
 Even when Lenovo Thinkpad E14 series are friendly with Linux, there are some tweaks you'll need to do in order make your Linux distro fully compatible with your hardware (check above table). So make sure to see those post installation steps.
