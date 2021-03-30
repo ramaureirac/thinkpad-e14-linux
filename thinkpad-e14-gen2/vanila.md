@@ -1,4 +1,4 @@
-# Thinkpad E14 Realtek
+# Thinkpad E14 Second Gen (Vanila)
 
 | Device        | Hardware                                                                  |
 |---------------|---------------------------------------------------------------------------|
