@@ -12,7 +12,7 @@ The checks if hardware works below were done with multiple Linux distributions. 
 
 | Device                      | Status                                    |
 | ----------------------------|-------------------------------------------|
-| Audio Input & Output        | ![](https://img.shields.io/badge/2nd_vanila-mic_issues-yellow.svg) ![](https://img.shields.io/badge/2nd_iris-mic_issues-yellow.svg) |
+| Audio Input & Output        | ![](https://img.shields.io/badge/2nd_vanila-mic_issues-green.svg) ![](https://img.shields.io/badge/2nd_iris-mic_issues-green.svg) |
 | Battery                     | ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)|
 | Bluetooth                   | ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)|
 | Camera                      | ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)|
@@ -21,7 +21,7 @@ The checks if hardware works below were done with multiple Linux distributions. 
 | Trackpoint & Buttons        | ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)|
 | NVMe & Internal SSD         | ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)|
 | Screen                      | ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg)|
-| Suspend & Hibernation       | ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-sleep_issues-yellow.svg) |
+| Suspend & Hibernation       | ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg) |
 | WiFi                        | ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg) |
 | USB                         | ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg) |
 | Hot Keys                    | ![](https://img.shields.io/badge/2nd_vanila-partially_working-yellow.svg) ![](https://img.shields.io/badge/2nd_iris-partially_working-yellow.svg) |
@@ -33,8 +33,8 @@ The checks if hardware works below were done with multiple Linux distributions. 
 | Distro                      | Status                                    |
 | ----------------------------|-------------------------------------------|
 | Fedora 34                   | ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg) |
-| Ubuntu 20.10                | ![](https://img.shields.io/badge/2nd_vanila-tweak_required-yellow.svg) ![](https://img.shields.io/badge/2nd_iris-tweak_required-yellow.svg) |
+| Ubuntu 20.10                | ![](https://img.shields.io/badge/2nd_vanila-tweak_required-green.svg) ![](https://img.shields.io/badge/2nd_iris-tweak_required-green.svg) |
 | Arch Linux                  | ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg) |
 | Debian 10                   | ![](https://img.shields.io/badge/2nd_vanila-not_working-red.svg) ![](https://img.shields.io/badge/2nd_iris-not_working-red.svg)  |
-| Pop! OS 20.10               | ![](https://img.shields.io/badge/2nd_vanila-tweak_required-yellow.svg) ![](https://img.shields.io/badge/2nd_iris-tweak_required-yellow.svg) |
-| Debian Bullseye             | ![](https://img.shields.io/badge/2nd_vanila-tweak_required-yellow.svg) ![](https://img.shields.io/badge/2nd_iris-tweak_required-yellow.svg) |
+| Pop! OS 20.10               | ![](https://img.shields.io/badge/2nd_vanila-tweak_required-green.svg) ![](https://img.shields.io/badge/2nd_iris-tweak_required-green.svg) |
+| Debian Bullseye             | ![](https://img.shields.io/badge/2nd_vanila-tweak_required-green.svg) ![](https://img.shields.io/badge/2nd_iris-tweak_required-green.svg) |
