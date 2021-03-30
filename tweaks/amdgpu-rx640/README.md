@@ -2,12 +2,6 @@
 
 There are some models wich include a dedicated AMD Graphic card. This model should work out of the box on newer Linux distirbutions. However, in case your are not able to run software with your dedicated graphic card check this guide.
 
-| Model                             | Working            |
-|-----------------------------------|--------------------|
-| Thinkpad E14 + AMD RX640          | :heavy_check_mark: |
-| Thinkpad E14 + AMD 620            | :heavy_check_mark: | 
-
-
 #### Install AMDGPU driver
 
 For some reason your distribution could have install a wrong driver (ati-driver) for your graphic card. So first of all let's make sure to install the right one by using the following command:

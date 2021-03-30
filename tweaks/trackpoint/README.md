@@ -1,55 +1,11 @@
-## #touchpoint drivers officially working
+## TouchpPoint Drivers Officially Working
 
-e14 and e15 gen 1 and 2 are now officially supported in the latest version of fedora 34 other distros will follow suit soon likely.
+It seems both ThinkPad E14 and E15 are now officially supported in the latest version of Fedora 34. Other Linux distributions will follow suit soon likely. However, in case you are on a more older distro it is possible that your trackpoint or buttons aren't recognized by your operating system. In order to fix it keep reading this document.
 
-## Thinkpad E14 Enable Trackpoint & Buttons
-
-Not able to use your trackpoint? this guide is for you:
-
-
-| Model          | Working             |
-|----------------|---------------------|
-| E14 First Gen  | :heavy_check_mark:  |
-| E14 Second Gen | :heavy_check_mark:  |
-
-### New alternative
+## Thinkpad E14 Enable Trackpoint & Buttons 
 
 Acording to [mimi89999](https://github.com/rodmaureirac/thinkpad-e14-linux/issues/8), just append `options psmouse elantech_smbus=0` in `/etc/modprobe.d/psmouse.conf` file:
 
     echo "options psmouse elantech_smbus=0" >> /etc/modprobe.d/psmouse.conf
     
 Fix should apply on next boot
-
-### Old alternative
-#### Edit grub config file
-
-First of all you need to open a terminal and edit the */etc/default/grub* file. In this case we will be using *nano*:
-
-    sudo nano /etc/default/grub
-
-Append *psmouse.elantech_smbus=0* at the end of the *GRUB_CMDLINE_LINUX* line. Something like this:
-
-    GRUB_CMDLINE_LINUX="rhgb quiet (...) psmouse.elantech_smbus=0"
-
-
-#### Rebuild grub
-
-Then make sure to rebuild your grub with the follwing command (Ubuntu):
-
-    sudo update-grub
-
-Grub rebuild for non Ubuntu-based distros ([Unified](https://fedoraproject.org/wiki/Changes/UnifyGrubConfig)/Legacy):
-
-    sudo grub2-mkconfig -o /boot/grub2/grub.cfg
-
-Grub rebuild for non Ubuntu-based distros (EFI) [depricated in fedora 34+](https://fedoraproject.org/wiki/Changes/UnifyGrubConfig):
-
-    sudo grub2-mkconfig -o /boot/efi/EFI/<your-distro>/grub.cfg
-
-#### Restart system
-
-Then you'll need to restart your system:
-
-    reboot
-
-#### You should now have working trackpoint and buttons.
