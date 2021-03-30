@@ -1,4 +1,4 @@
-# Thinkpad E14 Vanila
+# Thinkpad E14 First Gen (Vanila)
 
 | Device        | Hardware                                                                  |
 |---------------|---------------------------------------------------------------------------|
