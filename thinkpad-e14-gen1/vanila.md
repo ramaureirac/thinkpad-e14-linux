@@ -8,6 +8,8 @@
 | WIFI          | Intel Adapter AC9560, Intel Adapter AX201                                 |
 | AUDIO         | Dual Speaker 2W                                                           |
 
+![](https://img.shields.io/badge/1st_vanila-working-success.svg)
+
 ### Known issues
 
 - [Enable Trackpoint & Buttons](../tweaks/trackpoint/README.md) : In case you cannot use the trackpoint and its respective buttons, we recommend you to read this small guide to enable them. This problem should be solved in kernel versions after 5.10.
