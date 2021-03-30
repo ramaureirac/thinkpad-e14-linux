@@ -2,7 +2,7 @@
 
 The following repository provides an overview about Linux support for Lenovo Thinkpad E14 (it should work with E15 as well). Please note this documents are based on my own experience and it doesn't means an official support for this models. If you follow this guide, no one is responsible for any damage to your hardware.
 
-### touchpoint drivers officially working
+### trackpoint drivers officially working
 e14 and e15 gen 1 and 2 are now officially supported in the latest version of fedora 34 other distros will follow suit soon likely.
 
 ### Contribution
@@ -14,25 +14,31 @@ If you want to contribute to get Linux running smoothly on the Lenovo Thinkpad E
 The table shows up Linux 5.4+ support status for each device on this laptop series. Note that circle means it works but need extra tweak or configuration.
 Tweaks can be found on the specific laptops folder.
 
-| Device                            | First Gen                           | Second Gen                | Details                                                               |
-|-----------------------------------|-------------------------------------|---------------------------|-----------------------------------------------------------------------|
-| Audio Input & Output              | :heavy_check_mark:                  | :grey_exclamation:        | Some 2nd Gen models have mic problems                                 | 
-| Battery                           | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Bluetooth                         | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Camera                            | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Graphics Card (Intel)             | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Graphics Card (AMD)               | :o:                                 | :heavy_check_mark:        | Dedicated GPU on first gen requieres extra tweaks                     |
-| Graphics Card (Nvidia)            | :heavy_minus_sign:                  | :grey_question:           | Nvidia not tested yet                                                 |
-| Keyboard and Touchpad             | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Trackpoint and buttons            | :heavy_check_mark:                  | :heavy_check_mark:        | Working ootb on up to date distros but more stable distros require some extra config                             |
-| NVMe & Internal SSD               | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Screen                            | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Suspend & Hibernation             | :o:                                 | :heavy_check_mark:        | Suspension in first gen requires BIOS downgrade                       |
-| Wi-Fi                             | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| USB                               | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
-| Fingerprint Reader                | :x:                                 | :x:                       |                                                                       |
-| Fn Hot Keys                       | :heavy_check_mark:                  | :heavy_check_mark:        | Some keys doesn't work (F11 for 1st gen. F9-F11 for 2nd gen)          |
-| Fans                              | :heavy_check_mark:                  | :heavy_check_mark:        |                                                                       |
+| Key | Working | Needs config | Not working | Untested
+|---|---|---|---|---|
+| Updated devices | :heavy_minus_sign: | :large_blue_circle: | :large_blue_diamond: | :grey_question: |
+| Most devices | :white_check_mark: | :black_circle: | :heavy_multiplication_x: | :grey_question: |
+| All devices | :heavy_check_mark: | :red_circle: | :x: | :grey_question: |
+
+| Device | First Gen | Second Gen | Details |
+|---|---|---|---|
+| Audio Input & Output | :heavy_check_mark: | :white_check_mark: | Some 2nd Gen models have mic problems | 
+| Battery | :heavy_check_mark: | :heavy_check_mark: | |
+| Bluetooth | :heavy_check_mark: | :heavy_check_mark: | |
+| Camera | :heavy_check_mark: | :heavy_check_mark: | |
+| Graphics Card (Intel) | :heavy_check_mark: | :heavy_check_mark: | |
+| Graphics Card (AMD) | :red_circle: | :heavy_check_mark: | Dedicated GPU on first gen requieres extra tweaks                     |
+| Graphics Card (Nvidia) | :heavy_minus_sign: | :grey_question:    | Nvidia not tested yet                                                 |
+| Keyboard and Touchpad | :heavy_check_mark: | :heavy_check_mark: | |
+| Trackpoint and buttons | :heavy_minus_sign: | :heavy_minus_sign: | Working ootb on up to date distros but more stable distros require some extra config |
+| NVMe & Internal SSD | :heavy_check_mark: | :heavy_check_mark: | |
+| Screen | :heavy_check_mark: | :heavy_check_mark: | |
+| Suspend & Hibernation | :red_circle: | :heavy_check_mark: | Suspension in first gen requires BIOS downgrade |
+| Wi-Fi | :heavy_check_mark: | :heavy_check_mark: | |
+| USB | :heavy_check_mark: | :heavy_check_mark: | |
+| Fingerprint Reader | :x: | :x: | |
+| Fn Hot Keys | :heavy_check_mark: | :heavy_check_mark: | Some keys doesn't work (F11 for 1st gen. F9-F11 for 2nd gen) |
+| Fans | :heavy_check_mark: | :heavy_check_mark: | |
 
 
 ### Models
