@@ -1,6 +1,6 @@
 ## TouchpPoint Drivers Officially Working
 
-It seems both ThinkPad E14 and E15 are now officially supported in the latest version of Fedora 34. Other Linux distributions will follow suit soon likely.
+It seems both ThinkPad E14 and E15 are now officially supported in the latest version of Fedora 34. Other Linux distributions will follow suit soon likely. However, in case you are on a more older distro it is possible that your trackpoint or buttons aren't recognized by your operating system. In order to fix it keep reading this document.
 
 ## Thinkpad E14 Enable Trackpoint & Buttons 
 
