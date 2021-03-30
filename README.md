@@ -12,7 +12,7 @@ I initially thought of this repository as being exclusive to the first generatio
 
 | Generation            | Available Models                        |
 |-----------------------|-----------------------------------------|
-| First                 | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-tweak_required-green.svg) ![](https://img.shields.io/badge/1st_realtek-untested-lightgrey.svg) |
+| First                 | [![](https://img.shields.io/badge/1st_vanila-working-success.svg)](./thinkpad-e14-gen1/) ![](https://img.shields.io/badge/1st_polaris-tweak_required-green.svg) ![](https://img.shields.io/badge/1st_realtek-untested-lightgrey.svg) |
 | Second                | ![](https://img.shields.io/badge/2nd_vanila-tweak_required-green.svg) ![](https://img.shields.io/badge/2nd_iris-tweak_required-green.svg) ![](https://img.shields.io/badge/2nd_ryzen-untested-lightgrey.svg) ![](https://img.shields.io/badge/2nd_nvidia-untested-lightgrey.svg) |
 
 
