@@ -6,7 +6,7 @@ Este error parece ser propio de las derivadas de Debian. Es posible que se trate
 
 Both audio and internal mic should work after restart your machine.
 
-## Configure Aduio on ThinkPad E14 Second Gen (Alternative)
+## Configure Audio on ThinkPad E14 Second Gen (Alternative)
 
 According to [Barabazs](https://github.com/rodmaureirac/thinkpad-e14-linux/issues/9) it seems some second gen laptops are having issues with external speakers. We actually do
 not know why this happens, however Barabazs found a solution by disabling the internal mic. In order to do apply this patch:
