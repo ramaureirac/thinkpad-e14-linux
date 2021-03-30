@@ -1,6 +1,6 @@
 ## Configure Audio on ThinkPad E14 Second Gen
 
-Este error parece ser propio de las derivadas de Debian. Es posible que se trate de un paquete con algún fallo u otro error desconocido. Para arreglarlo basta con instalar el siguiente paquete:
+This error seems to be typical of Debian derivatives. It is possible that it is a buggy package or some other unknown error. To fix it just install the following package:
 
     sudo apt install -y firmware-sof-signed
 
