@@ -2,33 +2,34 @@
 
 According to Lenovo's web site. There are three base models for the Lenovo Thinkpad E14 according to their wireless network adapter; wich can be a Realtek RTL8822CE or an Intel Wireless AC9560/AX201. A part of that, everything else is almost identical except for the posibility to include a dedicated GPU (AMD Radeon 625/AMD Radeon RX640)
 
-#### Thinkpad E14 Vanila
+### Current Status
 
-| Device        | Hardware                                                                  |
-|---------------|---------------------------------------------------------------------------|
-| CPU           | Intel Core i3 10th Gen, Intel Core i5 10th Gen, Intel Core i7 10th Gen    |
-| GPU           | Intel UHD Graphics 620                                                    |
-| RAM           | Up to 16GB 2666Mhz                                                        |
-| WIFI          | Intel Adapter AC9560, Intel Adapter AX201                                 |
-| AUDIO         | Dual Speaker 2W                                                           |
+The checks if hardware works below were done with multiple Linux distributions. To state the obvious: The newer the kernel the better. The information below assumes that you run Linux 5.10 LTS or newer.
 
-#### Thinkpad E14 Realtek
+| Device                      | Status                                    |
+| ----------------------------|-------------------------------------------|
+| Audio Input & Output        | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) |
+| Battery                     | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg)|
+| Bluetooth                   | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg)|
+| Camera                      | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg)|
+| Intel Graphics              | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) |
+| AMD Polaris Graphics        | ![](https://img.shields.io/badge/1st_polaris-working-success.svg) |
+| Keyboard & Touchpad         | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg)|
+| Trackpoint & Buttons        | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg)|
+| NVMe & Internal SSD         | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg)|
+| Screen                      | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg)|
+| Suspend & Hibernation       | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-sleep_issues-yellow.svg) |
+| WiFi                        | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) |
+| USB                         | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg) |
+| Hot Keys                    | ![](https://img.shields.io/badge/1st_vanila-partially_working-yellow.svg) ![](https://img.shields.io/badge/1st_polaris-partially_working-yellow.svg) |
+| Fans                        | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-working-success.svg)  |
+| Fingerprint Reader          | ![](https://img.shields.io/badge/1st_vanila-not_working-red.svg) ![](https://img.shields.io/badge/1st_polaris-not_working-red.svg)  |
 
-| Device        | Hardware                                                                  |
-|---------------|---------------------------------------------------------------------------|
-| CPU           | Intel Core i3 10th Gen, Intel Core i5 10th Gen, Intel Core i7 10th Gen    |
-| GPU           | Intel UHD Graphics 620                                                    |
-| RAM           | Up to 16GB 2666Mhz                                                        |
-| WIFI          | Realtek Adapter RTL8822CE                                                 |
-| AUDIO         | Dual Speaker 2W                                                           |
+### Tested GNU/Linux Distributions
 
-#### Thinkpad E14 Polaris
-
-| Device        | Hardware                                                                      |
-|---------------|-------------------------------------------------------------------------------|
-| CPU           | Intel Core i3 10th Gen, Intel Core i5 10th Gen, Intel Core i7 10th Gen        |
-| GPU           | Intel UHD Graphics 620 + AMD Radeon RX640 2GB GDDR5, AMD Radeon 620 GDDR5 2GB |
-| RAM           | Up to 16GB 2666Mhz                                                            |
-| WIFI          | Intel Adapter AC9560, Intel Adapter AX201                                     |
-| AUDIO         | Dual Speaker 2W                                                               |
-
+| Distro                      | Status                                    |
+| ----------------------------|-------------------------------------------|
+| Fedora 34                   | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-tweak_required-yellow.svg) |
+| Ubuntu 20.10                | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-tweak_required-yellow.svg) |
+| Arch Linux                  | ![](https://img.shields.io/badge/1st_vanila-working-success.svg) ![](https://img.shields.io/badge/1st_polaris-tweak_required-yellow.svg) |
+| Debian 10                   | ![](https://img.shields.io/badge/1st_vanila-not_working-red.svg) ![](https://img.shields.io/badge/1st_polaris-not_working-red.svg)  |
