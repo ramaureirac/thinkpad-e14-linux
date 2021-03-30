@@ -36,4 +36,5 @@ The checks if hardware works below were done with multiple Linux distributions. 
 | Ubuntu 20.10                | ![](https://img.shields.io/badge/2nd_vanila-tweak_required-yellow.svg) ![](https://img.shields.io/badge/2nd_iris-tweak_required-yellow.svg) |
 | Arch Linux                  | ![](https://img.shields.io/badge/2nd_vanila-working-success.svg) ![](https://img.shields.io/badge/2nd_iris-working-success.svg) |
 | Debian 10                   | ![](https://img.shields.io/badge/2nd_vanila-not_working-red.svg) ![](https://img.shields.io/badge/2nd_iris-not_working-red.svg)  |
+| Pop! OS 20.10               | ![](https://img.shields.io/badge/2nd_vanila-not_working-red.svg) ![](https://img.shields.io/badge/2nd_iris-not_working-red.svg)  |
 | Debian Bullseye             | ![](https://img.shields.io/badge/2nd_vanila-tweak_required-yellow.svg) ![](https://img.shields.io/badge/2nd_iris-tweak_required-yellow.svg) |
