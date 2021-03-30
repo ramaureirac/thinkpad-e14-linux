@@ -7,3 +7,5 @@
 | RAM           | Up to 16GB 2666Mhz                                                        |
 | WIFI          | Realtek Adapter RTL8822CE                                                 |
 | AUDIO         | Dual Speaker 2W                                                           |
+
+![](https://img.shields.io/badge/1st_realtek-untested-lightgrey.svg)
