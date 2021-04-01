@@ -8,7 +8,7 @@ If you want to contribute to get Linux running smoothly on the Lenovo Thinkpad E
 
 ### Current ThinkPad E14 Models
 
-I initially thought of this repository as being exclusive to the first generation Lenovo ThinkPad E14. However, thanks to the support of the community, today we can provide a base documentation for different sub-models of the family as well as the second wave of laptops. Unfortunately we have not yet been able to describe every existing model and therefore we recommend to purchase only those that have the same configuration as the ones we document in this repository. That said, we present the models that we know exist around the world. You can clic them in order to know their details.
+I initially thought of this repository as being exclusive to the first generation Lenovo ThinkPad E14. However, thanks to the support of the community, today we can provide a base documentation for different sub-models of the family as well as the second wave of laptops. Unfortunately we have not yet been able to describe every existing model and therefore we recommend to purchase only those that have the same configuration as the ones we document in this repository. That said, we present the models that we know exist around the world. You can click them in order to know their details.
 
 | Generation            | Available Models                        |
 |-----------------------|-----------------------------------------|
