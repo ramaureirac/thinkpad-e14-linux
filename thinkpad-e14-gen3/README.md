@@ -30,3 +30,4 @@ The checks if hardware works below were done with multiple Linux distributions. 
 | Distro                      | Status                                    |
 | ----------------------------|-------------------------------------------|
 | Arch Linux                  | ![](https://img.shields.io/badge/3rd_vanila-working-success.svg) |
+| Fedora 34                   | ![](https://img.shields.io/badge/3rd_vanila-working-success.svg) |
