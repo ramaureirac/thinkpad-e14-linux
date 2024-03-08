@@ -2,7 +2,7 @@
 
 The current Thinkpad E14 Gen 5 AMD version supports Gnu/Linux out of the box. The fingerprint reader needs a driver from the vendor, which is now officially provided by Lenovo support.
 
-To follow the installation guide and configuration of the fingerprint reader follow the guide at `tweaks/fingerprint/README.md`
+To follow the installation guide and configuration of the fingerprint reader, follow the guide at `tweaks/fingerprint/README.md`
 
 ### Current Status
 
@@ -14,7 +14,7 @@ The information below assumes that you run Linux `6.6 LTS or newer`.
 | Battery                     | ![](https://img.shields.io/badge/5th_ryzen-working-success)  |
 | Bluetooth                   | ![](https://img.shields.io/badge/5th_ryzen-working-success)  |
 | Camera                      | ![](https://img.shields.io/badge/5th_ryzen-working-success)  |
-| Intel Graphics              | ![](https://img.shields.io/badge/5th_ryzen-working-success)  |
+| AMD Radeon Graphics         | ![](https://img.shields.io/badge/5th_ryzen-working-success)  |
 | Keyboard & Touchpad         | ![](https://img.shields.io/badge/5th_ryzen-working-success)  |
 | Trackpoint & Buttons        | ![](https://img.shields.io/badge/5th_ryzen-working-success)  |
 | NVMe & Internal SSD         | ![](https://img.shields.io/badge/5th_ryzen-working-success)  |
@@ -31,3 +31,5 @@ The information below assumes that you run Linux `6.6 LTS or newer`.
 | Distro                      | Status                                                      |
 | ----------------------------|-------------------------------------------------------------|
 | openSUSE Tumbleweed         | ![](https://img.shields.io/badge/5th_ryzen-working-success) |
+
+Other Linux distro (Archlinux, Fedora, Ubuntu, etc.) should also work out of the box.
