@@ -83,9 +83,9 @@ sudo chmod +x /usr/lib64/libfprint-2*
 and in `Yast` protected the `libfprint-2*` package from `Software Management`
 
 ## Configuration
-Whether you have same fingerprint controller or not, this configuration is same for all driver.
+Whether you have the same fingerprint controller or not, this configuration is the same for all drivers.
 
-First, register your fingerprint from kde-plasma or gnome settings.
+First, register your fingerprint using kde-plasma or gnome settings.
 If you use `fprint` then
 ```bash
 # to enroll
@@ -94,24 +94,29 @@ fprintd-enroll
 fprintd-verify
 ```
 Now, for authetication,
-```
+```bash
 sudo pam-config --update --fprintd
 ```
 
 or, for `sddm`, first copy the
-```
+
+```bash
 sudo cp /usr/lib/pam.d/sddm /etc/pam.d/sddm
 ```
+
 and put the lines at the beginning of the file
+
 ```
 #%PAM-1.0
 auth    [success=1 new_authtok_reqd=1 default=ignore]   pam_unix.so try_first_pass likeauth nullok
 auth    sufficient      pam_fprintd.so
 ```
 To configure `kde` lockscreen to accept password first and then fingerprint,
+
 ```bash
 sudo cp /usr/lib/pam.d/kde /etc/pam.d/kde
 ```
+
 and past the lines at the beginning of the file
 ```
 auth 			sufficient  	pam_unix.so try_first_pass likeauth nullok
