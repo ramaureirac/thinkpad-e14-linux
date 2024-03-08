@@ -22,6 +22,8 @@ Extract the `.zip` file and cd into it directory.
 
 Installation script can be found from [Lenovo forums](https://forums.lenovo.com/t5/Fedora/Fingerprint-reader-FPC-10a5-9800-IdeaBook-15-G4-IPA/m-p/5255485?page=1#6242266)
 
+Here are the step-by-step detailed guides that one can follow, 
+
 #### FPC driver
 
 Edit the `install.sh` file at `FPC_driver_linux_27.26.23.39/install_fpc/install.sh`
