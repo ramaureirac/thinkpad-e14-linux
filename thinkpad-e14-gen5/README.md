@@ -1,8 +1,8 @@
 ## Lenovo Thinkpad E14 Fifth Gen (AMD)
 
-The current thinkpad e14 gen 5 amd version supports Gnu/Linux out of the box. Fingerprint reader needs driver from the vendor which is now offically provided by Lenovo support.
+The current Thinkpad E14 Gen 5 AMD version supports Gnu/Linux out of the box. The fingerprint reader needs a driver from the vendor, which is now officially provided by Lenovo support.
 
-To follow the installation guide and configuration of fingerprint reader follow the guide at `tweaks/fingerprint/README.md`
+To follow the installation guide and configuration of the fingerprint reader follow the guide at `tweaks/fingerprint/README.md`
 
 ### Current Status
 
