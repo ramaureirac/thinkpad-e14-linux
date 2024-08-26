@@ -88,6 +88,7 @@ and in `Yast` protected the `libfprint-2*` package from `Software Management`
 Whether you have the same fingerprint controller or not, this configuration is the same for all drivers.
 
 First, register your fingerprint using kde-plasma or gnome settings.
+
 If you use `fprint` then
 ```bash
 # to enroll
@@ -95,7 +96,12 @@ fprintd-enroll
 # to verify
 fprintd-verify
 ```
+To enable fingerprint authentification for the command line simply run
+```bash
+sudo pam-auth-update
+```
 Now, for authetication,
+
 ```bash
 sudo pam-config --update --fprintd
 ```
