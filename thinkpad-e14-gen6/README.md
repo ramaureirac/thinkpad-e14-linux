@@ -2,7 +2,11 @@
 
 The current Thinkpad E14 Gen 6 AMD version supports Gnu/Linux out of the box. The fingerprint reader needs a driver from the vendor, which is now officially provided by Lenovo support.
 
-To follow the installation guide and configuration of the fingerprint reader, follow the guide at `tweaks/fingerprint/README.md`
+There are issues waking up from hybernation.
+
+The fingerprint reader was not set up out of the box. The installation guide and configuration of the fingerprint reader, follow the guide at `tweaks/fingerprint/README.md` are yet to be tested.
+
+Face authentification is yet to be tested.
 
 The analog mic input did not work out of the box. Quick fix was enabling the unconnected pins using `alsa-tools-gui` and `hdjackretask` and installing the boot override, see [here](https://askubuntu.com/questions/897437/my-microphone-is-not-working?noredirect=1&lq=1).
 
