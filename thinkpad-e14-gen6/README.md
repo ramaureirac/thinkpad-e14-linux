@@ -10,7 +10,7 @@ The information below assumes that you run Linux `6.8 LTS or newer`.
 
 | Device                      | Status                                    |
 | ----------------------------|-------------------------------------------|
-| Audio Input & Output        | ![](https://img.shields.io/badge/6th_ryzen-mic-issues-yellow)  |
+| Audio Input & Output        | ![](https://img.shields.io/badge/6th_ryzen-mic_issues-yellow)  |
 | Battery                     | ![](https://img.shields.io/badge/6th_ryzen-working-success)  |
 | Bluetooth                   | ![](https://img.shields.io/badge/6th_ryzen-working-success)  |
 | Camera                      | ![](https://img.shields.io/badge/6th_ryzen-working-success)  |
@@ -19,12 +19,12 @@ The information below assumes that you run Linux `6.8 LTS or newer`.
 | Trackpoint & Buttons        | ![](https://img.shields.io/badge/6th_ryzen-working-success)  |
 | NVMe & Internal SSD         | ![](https://img.shields.io/badge/6th_ryzen-working-success)  |
 | Screen                      | ![](https://img.shields.io/badge/6th_ryzen-working-success)  |
-| Suspend & Hibernation       | ![](https://img.shields.io/badge/6th_ryzen-partially-working-yellow)  |
+| Suspend & Hibernation       | ![](https://img.shields.io/badge/6th_ryzen-partially_working-yellow)  |
 | WiFi                        | ![](https://img.shields.io/badge/6th_ryzen-working-success)  |
 | USB                         | ![](https://img.shields.io/badge/6th_ryzen-working-success)  |
 | Hot Keys                    | ![](https://img.shields.io/badge/6th_ryzen-working-success)  |
 | Fans                        | ![](https://img.shields.io/badge/6th_ryzen-working-success)  |
-| Fingerprint Reader          | ![](https://img.shields.io/badge/6th_ryzen-not-working-red)  |
+| Fingerprint Reader          | ![](https://img.shields.io/badge/6th_ryzen-not_working-red)  |
 
 ### Tested GNU/Linux Distributions
 
