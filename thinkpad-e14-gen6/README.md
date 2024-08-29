@@ -4,9 +4,9 @@ The current Thinkpad E14 Gen 6 AMD version supports Gnu/Linux out of the box. Th
 
 There are issues waking up from hybernation.
 
-The fingerprint reader was not set up out of the box. The installation guide and configuration of the fingerprint reader, follow the guide at `tweaks/fingerprint/README.md` are yet to be tested.
+The fingerprint reader was not set up out of the box. The installation guide and configuration of the fingerprint reader, follow the guide at `tweaks/fingerprint/README.md`. Tested with both KDE plasma and Gnome.
 
-Face authentification is yet to be tested.
+Face authentification works upon installing [`howdy`](https://github.com/boltgolt/howdy).
 
 The analog mic input did not work out of the box. Quick fix was enabling the unconnected pins using `alsa-tools-gui` and `hdjackretask` and installing the boot override, see [here](https://askubuntu.com/questions/897437/my-microphone-is-not-working?noredirect=1&lq=1).
 
@@ -30,7 +30,7 @@ The information below assumes that you run Linux `6.8 LTS or newer`.
 | USB                         | ![](https://img.shields.io/badge/6th_ryzen-working-success)  |
 | Hot Keys                    | ![](https://img.shields.io/badge/6th_ryzen-working-success)  |
 | Fans                        | ![](https://img.shields.io/badge/6th_ryzen-working-success)  |
-| Fingerprint Reader          | ![](https://img.shields.io/badge/6th_ryzen-not_working-red)  |
+| Fingerprint Reader          | ![](https://img.shields.io/badge/6th_ryzen-working-success)  |
 
 ### Tested GNU/Linux Distributions
 
