@@ -4,7 +4,7 @@ The current Thinkpad E14 Gen 6 AMD version supports Gnu/Linux out of the box. Th
 
 There are issues waking up from hybernation.
 
-The fingerprint reader was not set up out of the box. The installation guide and configuration of the fingerprint reader, follow the guide at `tweaks/fingerprint/README.md`.
+The fingerprint reader was not set up out of the box. The installation guide and configuration of the fingerprint reader, follow the guide at `tweaks/fingerprint/README.md`. Tested with both KDE plasma and Gnome.
 
 Face authentification works upon installing [`howdy`](https://github.com/boltgolt/howdy).
 
