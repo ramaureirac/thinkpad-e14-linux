@@ -48,7 +48,7 @@ Now, also edit the `install.sh` file at `FPC_driver_linux_libfprint/install_libf
 ```bash
 if grep -qE 'ID=fedora' /etc/os-release; then
   sudo dnf -y install libfprint fprintd fprintd-pam 'dnf-command(versionlock)'
-  sudo dnf versionlock libfprint
+  sudo dnf versionlock add libfprint
   sudo cp -r lib/* /usr/lib/
   sudo cp usr/lib/x86_64-linux-gnu/* /usr/lib64/
   sudo chmod +x /usr/lib64/libfprint-2*
