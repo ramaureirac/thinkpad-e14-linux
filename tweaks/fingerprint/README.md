@@ -7,6 +7,10 @@ $ lsusb
 ```
 Bus 003 Device 003: ID 10a5:9800 FPC FPC Sensor Controller L:0002 FW:27.26.23.31
 ```
+Another result
+```
+Bus 003 Device 002: ID 27c6:550a Shenzhen Goodix Technology Co.,Ltd. FingerPrint
+```
 You can have different controllers depending on the PC model.
 
 
@@ -15,8 +19,8 @@ Lenovo officially provides the driver, which can be downloaded from the `Lenovo 
 
 ## Driver Installaion
 
-### FPC FingerPrint Driver
-First, download the driver from Lenovo PC support. [Download Link](https://download.lenovo.com/pccbbs/mobiles/r1slm02w.zip)
+### FingerPrint Driver
+First, download the driver from Lenovo PC support. [FPC](https://download.lenovo.com/pccbbs/mobiles/r1slm02w.zip) or [Goodix](https://download.lenovo.com/pccbbs/mobiles/r1slg01w.zip).
 
 Extract the `.zip` file and cd into it directory.
 
