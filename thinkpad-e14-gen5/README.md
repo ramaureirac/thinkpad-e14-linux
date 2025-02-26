@@ -31,5 +31,6 @@ The information below assumes that you run Linux `6.6 LTS or newer`.
 | Distro                      | Status                                                      |
 | ----------------------------|-------------------------------------------------------------|
 | openSUSE Tumbleweed         | ![](https://img.shields.io/badge/5th_ryzen-working-success) |
+| NixOS 24.11                 | ![](https://img.shields.io/badge/5th_ryzen-working-success) |
 
 Other Linux distro (Archlinux, Fedora, Ubuntu, etc.) should also work out of the box.
