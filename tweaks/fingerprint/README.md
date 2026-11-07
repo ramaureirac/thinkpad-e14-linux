@@ -14,6 +14,20 @@ Bus 003 Device 002: ID 27c6:550a Shenzhen Goodix Technology Co.,Ltd. FingerPrint
 You can have different controllers depending on the PC model.
 
 
+## Ubuntu: packaged FPC driver (no manual install)
+On Ubuntu 20.04, 22.04 and 24.04 the FPC `10a5:9800` driver is available as a libfprint TOD module from a PPA. It plugs into the stock Ubuntu libfprint, so there's no need to replace system libraries or hold packages:
+
+```bash
+sudo add-apt-repository ppa:libfprint-tod1-group/ppa
+sudo apt update
+sudo apt install libfprint-2-tod1-fpc
+sudo pam-auth-update --enable fprintd
+```
+Then enroll as described in [Configuration]. If you previously used the Lenovo zip, undo it first: remove its libfprint copies and run `echo "libfprint-2-2 install" | sudo dpkg --set-selections`, then reinstall `libfprint-2-2`.
+
+There is no 26.04 build yet. Archive inclusion is requested in [LP: #2024145](https://bugs.launchpad.net/bugs/2024145). Mark "This bug affects me" if you need it.
+
+
 ## Download Driver
 Lenovo officially provides the driver, which can be downloaded from the `Lenovo PC support` website under the `E14 gen 4` section. The driver works with the `E14 gen 5` model and some Ideapad models.
 
